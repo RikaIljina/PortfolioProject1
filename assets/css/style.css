@@ -92,6 +92,10 @@ main {
     margin-top: 4rem;
 }
 
+section {
+    width: 100%;
+}
+
 /* Hero div */
 #hero {
     background-color: rgb(83, 86, 77);
@@ -110,7 +114,21 @@ main {
     margin-top: 15%;
 }
 
+/* Section div style with responsive outer width */
+.outer-width {
+    width: 90%;
+    margin: auto;
+}
 
+/* Section div flex styles */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-section h2 {
+    text-align: center;
+}
 
 /* Footer styles */
 footer {
