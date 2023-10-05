@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: aqua;
+    background-color: #131515;
     width: 100%;
     position: fixed;
     z-index: 99;
@@ -58,7 +58,7 @@ header {
 #menu {
     position: absolute;
     width: 100%;
-    background-color: aqua;
+    background-color: #131515;
     top: 100%;
     /* For mobile view: hide menu until menu icon is clicked */
     display: none;
@@ -81,11 +81,12 @@ header {
     margin-left: 2rem;
     font-size: 2.5rem;
     text-decoration: none;
+    color: #D3F1D0;
 }
 
 /* Main section style */
 main {
-    background-color: bisque;
+    /* background-color: bisque; */
     width: 100%;
     flex: 1 0 auto;
     /* Use logo line height as margin */
@@ -97,12 +98,13 @@ section {
 }
 
 .background-1 {
-    background-color: rgb(197, 197, 177);
+    background-color: #C3C397;
+    color: #131515;
 }
 
 .background-2 {
-    background-color: rgb(59, 59, 53);
-    color: antiquewhite;
+    background-color: #3C312A;
+    color: #D3F1D0;
 }
 
 /* Hero div */
@@ -217,8 +219,9 @@ section {
 
 /* Footer styles */
 footer {
-    background-color: blueviolet;
+    background-color: #D36135;
     width: 100%;
+    color: #131515;
 }
 
 #social {
