@@ -46,7 +46,7 @@ header {
 
 /* Navbar: toggle menu */
 #mobile-menu-chk:checked~#menu {
-    display: block;
+    display: flex;
 }
 
 /* Navbar: menu icon styles */
@@ -61,6 +61,7 @@ header {
 /* Navbar: menu styles */
 #menu {
     position: absolute;
+    flex-direction: column;
     width: 100%;
     background-color: #3C312A;
     top: 99%;
@@ -82,6 +83,16 @@ header {
     color: #D3F1D0;
 
 }
+
+/* Navbar: user feedback when hovering and clicking */
+#menu>li>a:hover {
+    text-shadow: 0 0 5px #D3F1D0;
+}
+
+#menu>li>a:active {
+    color: #869a85;
+}
+
 
 /* Navbar: Logo styles */
 #logo {
