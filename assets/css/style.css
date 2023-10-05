@@ -96,6 +96,15 @@ section {
     width: 100%;
 }
 
+.background-1 {
+    background-color: rgb(197, 197, 177);
+}
+
+.background-2 {
+    background-color: rgb(59, 59, 53);
+    color: antiquewhite;
+}
+
 /* Hero div */
 #hero {
     background-color: rgb(83, 86, 77);
@@ -168,6 +177,7 @@ section {
     margin: 0.5rem 0;
 }
 
+/* Styles for cards with lists */
 .card ul {
     margin-left: 1.5rem;
 }
@@ -189,6 +199,7 @@ section {
     margin-bottom: 1rem;
 }
 
+/* Styles for elements with center-text class */
 .center-text {
     text-align: center;
 }
