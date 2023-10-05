@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Signika+Negative:wght@300;400;500;600&display=swap');
+
 /* Override default browser styles */
 * {
     padding: 0;
@@ -11,6 +13,7 @@ body {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
+    font-family: "Signika Negative", sans-serif;
 }
 
 header {
@@ -85,6 +88,7 @@ header {
     font-size: 2.5rem;
     text-decoration: none;
     color: #D3F1D0;
+    font-family: "Cinzel Decorative", serif;
 }
 
 /* Main section style */
@@ -141,6 +145,7 @@ section {
 #hero > p {
     color: #D3F1D0;
     font-size: 1.2rem;
+    
 }
 
 #hero .button {
