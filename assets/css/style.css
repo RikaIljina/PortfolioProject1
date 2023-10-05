@@ -20,6 +20,30 @@ header {
     z-index: 99;
 }
 
+/* Navbar */
+#navigation {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+/* Make all subelements take up all available space in the nav bar */
+#navigation > * {
+    flex: 1 0 auto;
+}
+
+/* Hide checkbox */
+#mobile-menu-chk {
+    display: none;
+}
+
+#mobile-menu-icon {
+    cursor: pointer;
+    text-align: right;
+    align-self: center;
+}
+
+
 main {
     background-color: bisque;
     width: 100%;
