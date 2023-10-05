@@ -128,6 +128,7 @@ section {
 
 .page-section h2 {
     text-align: center;
+    width: 100%;
 }
 
 /* Styles for mobile only */
@@ -137,9 +138,23 @@ section {
     align-items: center;
 }
 
+.card-container {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+
+/* Card styles */
+.card > h3 {
+    text-align: center;
+}
+
+
+/* Image styles */
 #image-1 {
     max-width: 90%;
 }
+
 
 
 
