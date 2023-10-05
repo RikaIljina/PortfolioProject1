@@ -240,11 +240,15 @@ section {
 }
 
 .card>h3,
-.info-box>h3,
-.register-bottom>h3 {
+.info-box>h3 {
     text-align: center;
     width: 100%;
-    margin: 0.5rem 0;
+    margin: 0.5rem auto;
+}
+.register-bottom>h3 {
+    text-align: center;
+    width: 70%;
+    margin: 0.5rem auto;
 }
 
 /* Styles for cards with lists */
@@ -353,17 +357,21 @@ footer {
     font-size: 90%;
 }
 
+/* Media query for view on larger screens */
 @media screen and (min-width: 768px) {
 
     .outer-width {
         width: 70%;
     }
+
+    /* Override mobile-column styles */
     .flex-row {
         border: 1px solid red;
         flex-direction: row;
         width: 100%;
     }
 
+    /* Make all navigation links visible */
     #mobile-menu-icon {
         display: none;
     }
@@ -379,6 +387,7 @@ footer {
         box-shadow: none;
     }
 
+    /* Top section style: display paragraph and image next to each other */
     .top-section > div > p {
         flex: 1 0 50%;
         padding: 1rem 1rem 0 0;
@@ -390,14 +399,13 @@ footer {
         flex: 1 0 40%;
     }
 
-
+/* Show cards in a row for large screens */
     .card-container {
         justify-content: space-around;
         gap: 10px;
-
     }
 
-    .card {
+    .card, .info-box {
         /* min-width: 20vw; */
         max-width: 40vw;
         align-self: stretch;
