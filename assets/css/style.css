@@ -149,7 +149,8 @@ section {
     
 }
 
-#hero .button {
+#hero .button,
+.button {
     flex: 0 0 auto;
     background-color: #D36135;
     border: 3px solid #D3F1D0;
