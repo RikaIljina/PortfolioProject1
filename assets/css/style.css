@@ -200,6 +200,14 @@ section {
     border-bottom: 5px solid #C3C397;
 }
 
+.background-1 h3 {
+    border-bottom: 5px solid #3C312A;
+}
+
+.background-2 h3 {
+    border-bottom: 5px solid #C3C397;
+}
+
 /* Styles for mobile only */
 .mobile-column {
     display: flex;
@@ -220,8 +228,13 @@ section {
 .card, .info-box {
     width: 90%;
     /* border: 1px solid red; */
-    
 }
+
+.card {
+    box-shadow: 0 0 10px  #131515;
+    border-radius: 15px 1px;
+}
+
 /* Card and info box styles */
 .card > h3,
 .info-box > h3,
@@ -229,13 +242,20 @@ section {
     text-align: center;
     width: 100%;
     margin: 0.5rem 0;
-    border-bottom: 5px solid #C3C397;
 }
 
 /* Styles for cards with lists */
 .card ul {
     margin-left: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.card ul li {
+    list-style-type: square;
+}
+
+.card p {
+    padding: 1rem;
 }
 
 .info-box {
