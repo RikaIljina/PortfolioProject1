@@ -359,7 +359,9 @@ footer {
         width: 70%;
     }
     .flex-row {
+        border: 1px solid red;
         flex-direction: row;
+        width: 100%;
     }
 
     #mobile-menu-icon {
@@ -374,8 +376,18 @@ footer {
         /* flex: 1 0 60%; */
         justify-content: space-evenly;
         align-items: center;
-        background-color: #3C312A;
         box-shadow: none;
+    }
+
+    .top-section > div > p {
+        flex: 1 0 50%;
+        padding: 1rem 1rem 0 0;
+        align-self: flex-start;
+    }
+
+    #image-1 {
+        max-width: 40%;
+        flex: 1 0 40%;
     }
 
 
