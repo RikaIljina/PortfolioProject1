@@ -18,6 +18,7 @@ header {
     width: 100%;
     position: fixed;
     z-index: 99;
+
 }
 
 /* Navbar */
@@ -26,6 +27,7 @@ header {
     width: 100%;
     position: relative;
     justify-content: space-between;
+
 }
 
 /* Navbar: make all subelements take up all available space in the nav bar */
@@ -66,7 +68,7 @@ header {
 #menu > li {
     text-align: center;
     list-style-type: none;
-    padding: 0.5rem 0;;
+    padding: 0.5rem 0;
 }
 
 #menu > li > a {
@@ -78,6 +80,7 @@ header {
     line-height: 4rem;
     margin-left: 2rem;
     font-size: 2.5rem;
+    text-decoration: none;
 }
 
 
@@ -85,6 +88,8 @@ main {
     background-color: bisque;
     width: 100%;
     flex: 1 0 auto;
+    /* Use logo line height as margin */
+    margin-top: 4rem;
 }
 
 footer {
