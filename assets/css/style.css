@@ -138,15 +138,22 @@ section {
     align-items: center;
 }
 
+/* Override styles for mobile-column and flex-row */
 .card-container {
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: center;
+    
 }
 
 /* Card styles */
 .card > h3 {
     text-align: center;
+}
+
+.card > p {
+    width: 80%;
+    margin: auto;
 }
 
 
