@@ -227,6 +227,7 @@ section {
 
 }
 
+/* Card and info box styles */
 .card,
 .info-box {
     width: 90%;
@@ -238,7 +239,6 @@ section {
     border-radius: 15px 1px;
 }
 
-/* Card and info box styles */
 .card>h3,
 .info-box>h3,
 .register-bottom>h3 {
@@ -351,4 +351,23 @@ footer {
 #site-notice span {
     font-weight: 300;
     font-size: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .flex-row {
+        flex-direction: row;
+    }
+
+    .card-container {
+        justify-content: space-around;
+
+    }
+
+    .card {
+        min-width: 25vw;
+        max-width: 40vw;
+        align-self: stretch;
+        /* flex: 1 0 30%; */
+
+    }
 }
