@@ -362,6 +362,23 @@ footer {
         flex-direction: row;
     }
 
+    #mobile-menu-icon {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        max-width: 60%;
+        /* flex: 1 0 60%; */
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #3C312A;
+        box-shadow: none;
+    }
+
+
     .card-container {
         justify-content: space-around;
         gap: 10px;
