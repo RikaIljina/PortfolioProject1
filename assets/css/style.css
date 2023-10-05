@@ -28,28 +28,31 @@ header {
     justify-content: space-between;
 }
 
-/* Make all subelements take up all available space in the nav bar */
+/* Navbar: make all subelements take up all available space in the nav bar */
 #navigation > * {
     /* flex: 1 0 auto; */
 }
 
-/* Hide checkbox */
+/* Navbar: hide checkbox */
 #mobile-menu-chk {
     display: none;
 }
 
+/* Navbar: toggle menu */
 #mobile-menu-chk:checked ~ #menu {
     display: block;
 }
 
-/* Push menu icon to the right of the nav bar */
+/* Navbar: menu icon styles */
 #mobile-menu-icon {
     cursor: pointer;
-    text-align: right;
+    /* text-align: right; */
     align-self: center;
-    border: 1px solid red;
+    font-size: 2.5rem;
+    margin-right: 1.5rem;
 }
 
+/* Navbar: menu styles */
 #menu {
     position: absolute;
     width: 100%;
@@ -59,9 +62,24 @@ header {
     display: none;
 }
 
+/* Navbar: menu item styles */
 #menu > li {
     text-align: center;
+    list-style-type: none;
+    padding: 0.5rem 0;;
 }
+
+#menu > li > a {
+    text-decoration: none;
+}    
+
+/* Navbar: Logo styles */
+#logo {
+    line-height: 4rem;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+}
+
 
 main {
     background-color: bisque;
