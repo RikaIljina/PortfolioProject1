@@ -134,6 +134,7 @@ section {
 .page-section h2 {
     text-align: center;
     width: 100%;
+    margin: 1rem 0;
 }
 
 /* Styles for mobile only */
@@ -149,19 +150,26 @@ section {
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
     
 }
 .card, .info-box {
-    width: 80%;
+    width: 90%;
     border: 1px solid red;
-
+    
 }
 /* Card and info box styles */
 .card > h3,
-.info-box > h3 {
+.info-box > h3,
+.register-bottom > h3 {
     text-align: center;
     width: 100%;
+    margin: 0.5rem 0;
+}
 
+.card ul {
+    margin-left: 1.5rem;
 }
 
 .info-box {
@@ -169,7 +177,21 @@ section {
     text-align: center;
 }
 
+.register-bottom {
+    border: 1px solid red;
+}
 
+.register-bottom > p {
+    margin: 1rem 0;
+}
+
+.register-bottom > a {
+    margin-bottom: 1rem;
+}
+
+.center-text {
+    text-align: center;
+}
 
 /* Image styles */
 #image-1, #image-2 {
