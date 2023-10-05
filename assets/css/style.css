@@ -280,6 +280,10 @@ section {
     left: 1rem;
 }
 
+.info-box > p {
+    margin-bottom: 1rem;
+}
+
 .image-box {
     box-shadow: none;
     border-radius: 0;
@@ -411,5 +415,24 @@ footer {
         align-self: stretch;
          flex: 1 0 200px;
 
+    }
+
+    .register-bottom>p {
+        width: 50%;
+        margin: 1rem auto 1rem auto;
+        border: 5px solid #D36135;
+        border-radius: 15px 1px;
+        padding: 0.5rem 0;
+    }
+
+    /* Footer styles */
+    #social {
+        justify-content: center;
+    }
+    
+    #social a {
+        font-size: 2rem;
+        padding: 1rem 3rem;
+        color: #131515;
     }
 }
