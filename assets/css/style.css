@@ -25,11 +25,12 @@ header {
     display: flex;
     width: 100%;
     position: relative;
+    justify-content: space-between;
 }
 
 /* Make all subelements take up all available space in the nav bar */
 #navigation > * {
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
 }
 
 /* Hide checkbox */
@@ -37,12 +38,30 @@ header {
     display: none;
 }
 
+#mobile-menu-chk:checked ~ #menu {
+    display: block;
+}
+
+/* Push menu icon to the right of the nav bar */
 #mobile-menu-icon {
     cursor: pointer;
     text-align: right;
     align-self: center;
+    border: 1px solid red;
 }
 
+#menu {
+    position: absolute;
+    width: 100%;
+    background-color: aqua;
+    top: 100%;
+    /* For mobile view: hide menu until menu icon is clicked */
+    display: none;
+}
+
+#menu > li {
+    text-align: center;
+}
 
 main {
     background-color: bisque;
