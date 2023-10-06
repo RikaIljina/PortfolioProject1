@@ -298,6 +298,7 @@ section {
 /* Styles for cards with paragraphs */
 .card p {
     padding: 1rem;
+    text-align: justify;
 }
 
 /* Info box styles */
@@ -397,7 +398,7 @@ footer {
 @media screen and (min-width: 517px) {
 
     .outer-width {
-        width: 80%;
+        width: 90%;
     }
 
     /* Override mobile-column styles */
@@ -408,11 +409,11 @@ footer {
     }
 
     /* Keep top section a column on small tablets */
-    .top-section .flex-row {
+    .top-section .flex-row, .card-container {
         flex-direction: column;
     }
 
-    #hero {
+        #hero {
     height:  50vh;
     min-height: 12rem;
     }
@@ -440,7 +441,7 @@ footer {
         /* min-width: 20vw; */
         max-width: 40vw;
         align-self: stretch;
-         flex: 1 0 200px;
+         flex: 1 0 300px;
 
     }
 
@@ -469,6 +470,12 @@ footer {
 
     .outer-width {
         width: 70%;
+    }
+
+    .top-section .flex-row, .card-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
 
