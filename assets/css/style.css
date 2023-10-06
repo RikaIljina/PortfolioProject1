@@ -230,7 +230,7 @@ section {
 }
 
 .top-section > div > p {
-    padding: 1rem 2rem;
+    padding: 0 1rem;
     margin: 0 0 1rem 0;
     text-align: justify;
     align-self: center;
@@ -399,6 +399,7 @@ footer {
         width: 100%;
     }
 
+    /* Keep top section a column on small tablets */
     .top-section .flex-row {
         flex-direction: column;
     }
@@ -411,15 +412,14 @@ footer {
     /* Top section style: display paragraph and image in different layouts depending on screen size */
     .top-section > div > p {
         flex: 1 0 50%;
-        padding: 1rem 3rem 1rem 0;
+        /* padding: 1rem 3rem 1rem 0; */
         margin: 0 0 1rem 0;
-        text-align: justify;
-        align-self: center;
+        /* text-align: justify; */
+        /* align-self: center; */
     }
 
     #image-1 {
-        max-width: 60%;
-        /* flex: 1 0 40%; */
+        max-width: 80%;
     }
 
 /* Show cards in a row for larger screens */
@@ -486,6 +486,10 @@ footer {
     background: url('../images/glen-carrie-soil_leaf-unsplash.webp') no-repeat center center / cover;
     }
 
+    #image-1 {
+        max-width: 70%;
+    }
+
 
 }
 
@@ -501,6 +505,8 @@ footer {
     #image-1 {
         order: 1;
         align-self: center;
+        max-width: 50%;
+        
     }
     
 #hero {
