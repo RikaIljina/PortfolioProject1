@@ -281,10 +281,18 @@ section {
 .card ul {
     margin-left: 1.5rem;
     margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 .card ul li {
     list-style-type: square;
+    margin-bottom: 0.3rem;
+    /* text-align: justify; */
+}
+
+.green-text {
+    color: #9cd092;
+    text-decoration: underline;
 }
 
 /* Styles for cards with paragraphs */
