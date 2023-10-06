@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Cinzel+Decorative:wght@400;700&family=Ruthie&family=Signika+Negative:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cherry+Swash:wght@400;700&family=Cuprum:wght@500;700&family=Niconne&display=swap');
 
 /* Override default browser styles */
 * {
@@ -14,6 +15,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: "Signika Negative", sans-serif;
+    font-weight: 300;
 }
 
 header {
@@ -99,12 +101,13 @@ header {
 /* Navbar: Logo styles */
 #logo {
     /* Logo line height translates into navbar height */
-    line-height: 4rem;
+    line-height: 3.5rem;
     margin-left: 2rem;
-    font-size: 3rem;
+    font-size: 2.3rem;
     text-decoration: none;
-    color: #D3F1D0;
-    font-family: "Ruthie", serif;
+    color: #9ba772;
+    text-shadow: 0 0 3px #D36135;
+    font-family: "Cherry Swash", sans-serif;
 }
 
 /* Main section style */
@@ -112,7 +115,7 @@ main {
     width: 100%;
     flex: 1 0 auto;
     /* Use logo line height as top margin */
-    margin-top: 4rem;
+    margin-top: 3.5rem;
 }
 
 section {
@@ -307,7 +310,8 @@ section {
 
 .green-text {
     color: #9cd092;
-    text-decoration: underline;
+    font-weight: 500;
+    /* text-decoration: underline; */
 }
 
 /* Styles for cards with paragraphs */
