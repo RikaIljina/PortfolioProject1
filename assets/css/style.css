@@ -131,6 +131,15 @@ section {
     background-size: cover;
 }
 
+.image-bg-1 {
+    height: 30vh;
+    background-image: url('../images/pexels-lisa-fotios-1301856_larger.webp');
+    background-position: top 0 center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .background-1 {
     background-color: #C3C397;
     color: #131515;
@@ -498,9 +507,9 @@ footer {
         width: 70%;
     }
 
-    .image-bg {
+    .image-bg, .image-bg-1 {
         height: 50vh;
-        background-image: url('../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp');
+        /* background-image: url('../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp'); */
     }
 
     .top-section .flex-row,
