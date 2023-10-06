@@ -124,7 +124,7 @@ section {
 
 .image-bg {
     height: 30vh;
-    background-image: url('../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp');
+    background-image: url(../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -133,8 +133,8 @@ section {
 
 .image-bg-1 {
     height: 30vh;
-    background-image: url('../images/gabriel-jimenez-soil_hands-unsplash.webp');
-    background-position: top 0 center;
+    background-image: url(../images/gabriel-jimenez-soil_hands-unsplash.webp);
+    background-position: top 20% center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
