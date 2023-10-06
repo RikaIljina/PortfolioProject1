@@ -309,7 +309,7 @@ section {
 }
 
 .green-text {
-    color: #9cd092;
+    color: #2f412c;
     font-weight: 500;
     /* text-decoration: underline; */
 }
@@ -327,6 +327,7 @@ section {
     text-align: center;
     box-shadow: 0 0 10px #131515;
     border-radius: 15px 1px;
+    font-size: 150%;
 }
 
 /* Placement of icons in info boxes */
@@ -519,6 +520,10 @@ footer {
         flex: 1 0 300px;
     }
 
+    .info-box {
+        align-self: center;
+    }
+
 
     /* Make all navigation links visible */
     #mobile-menu-icon {
@@ -545,7 +550,6 @@ footer {
     #image-1 {
         max-width: 70%;
     }
-
 
 }
 
