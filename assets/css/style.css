@@ -173,10 +173,10 @@ section {
     text-decoration: none;
     font-weight: 600;
 }
+
 #hero .button {
     margin-top: 1rem;
 }
-
 
 /* Empty div in header to push other elements down */
 #empty {
@@ -203,22 +203,13 @@ section {
     margin: 1rem 0;
 }
 
-.top-section>h2 {
-    border-bottom: 5px solid #3C312A;
-}
-
-.background-1 h2 {
-    border-bottom: 5px solid #3C312A;
-}
-
-.background-2 h2 {
-    border-bottom: 5px solid #C3C397;
-}
-
+.top-section>h2,
+.background-1 h2,
 .background-1 h3 {
     border-bottom: 5px solid #3C312A;
 }
 
+.background-2 h2,
 .background-2 h3 {
     border-bottom: 5px solid #C3C397;
 }
@@ -238,7 +229,6 @@ section {
     align-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
-
 }
 
 /* Card and info box styles */
@@ -275,6 +265,7 @@ section {
     list-style-type: square;
 }
 
+/* Styles for cards with paragraphs */
 .card p {
     padding: 1rem;
 }
@@ -288,6 +279,7 @@ section {
     border-radius: 15px 1px;
 }
 
+/* Placement of icons in info boxes */
 .info-box i {
     position: absolute;
     font-size: 150%;
