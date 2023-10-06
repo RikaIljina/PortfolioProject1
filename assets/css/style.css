@@ -105,7 +105,7 @@ header {
     margin-left: 2rem;
     font-size: 2.3rem;
     text-decoration: none;
-    color: #9ba772;
+    color: #a0a58f;
     text-shadow: 0 0 3px #D36135;
     font-family: "Cherry Swash", sans-serif;
 }
@@ -499,7 +499,7 @@ footer {
 
     .image-bg {
         height: 50vh;
-        background-image: url('../images/roman-synkevych-fjj7lVpCxRE-unsplash.webp');
+        background-image: url('../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp');
     }
 
     .top-section .flex-row,
@@ -539,7 +539,7 @@ footer {
     #hero {
         height: 50vh;
         min-height: 12rem;
-        background: url('../images/glen-carrie-soil_leaf-unsplash.webp') no-repeat center center / cover;
+        background: url('../images/glen-carrie-soil_leaf-unsplash_tinified.webp') no-repeat center center / cover;
     }
 
     #image-1 {
