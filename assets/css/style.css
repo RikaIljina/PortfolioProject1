@@ -88,7 +88,8 @@ header {
     text-shadow: 0 0 5px #D3F1D0;
 }
 
-#menu>li>a:active, #menu>li>a.active {
+#menu>li>a:active,
+#menu>li>a.active {
     border-bottom: 2px solid #50952d;
     border-top: 2px solid #50952d;
     border-radius: 5px 1px;
@@ -229,7 +230,7 @@ section {
     border-bottom: 5px solid #C3C397;
 }
 
-.top-section > div > p {
+.top-section>div>p {
     padding: 0 1rem;
     margin: 0 0 1rem 0;
     text-align: justify;
@@ -271,6 +272,7 @@ section {
     width: 100%;
     margin: 0.5rem auto;
 }
+
 .register-bottom>h3 {
     text-align: center;
     width: 70%;
@@ -317,7 +319,7 @@ section {
     left: 1rem;
 }
 
-.info-box > p {
+.info-box>p {
     margin-bottom: 1rem;
 }
 
@@ -409,17 +411,18 @@ footer {
     }
 
     /* Keep top section a column on small tablets */
-    .top-section .flex-row, .card-container {
+    .top-section .flex-row,
+    .card-container {
         flex-direction: column;
     }
 
-        #hero {
-    height:  50vh;
-    min-height: 12rem;
+    #hero {
+        height: 50vh;
+        min-height: 12rem;
     }
 
     /* Top section style: display paragraph and image in different layouts depending on screen size */
-    .top-section > div > p {
+    .top-section>div>p {
         flex: 1 0 50%;
         /* padding: 1rem 3rem 1rem 0; */
         margin: 0 0 1rem 0;
@@ -431,17 +434,19 @@ footer {
         max-width: 80%;
     }
 
-/* Show cards in a row for larger screens */
+    /* Show cards in a row for larger screens */
     .card-container {
         justify-content: space-around;
         gap: 10px;
     }
 
-    .card, .info-box {
+    .card,
+    .info-box {
         /* min-width: 20vw; */
-        max-width: 40vw;
-        align-self: stretch;
-         flex: 1 0 300px;
+        max-width: 90%;
+        /* align-self: stretch; */
+        /* flex: 1 0 300px; */
+
 
     }
 
@@ -457,7 +462,7 @@ footer {
     #social {
         justify-content: center;
     }
-    
+
     #social a {
         font-size: 2rem;
         padding: 1rem 3rem;
@@ -472,33 +477,44 @@ footer {
         width: 70%;
     }
 
-    .top-section .flex-row, .card-container {
+    .top-section .flex-row,
+    .card-container {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        /* width: 100%; */
+    }
+
+    .card,
+    .info-box {
+        /* min-width: 40%; */
+        max-width: 80%;
+        /* Make sure cards in a row have the same height */
+        align-self: stretch;
+        flex: 1 0 300px;
     }
 
 
-/* Make all navigation links visible */
-#mobile-menu-icon {
-    display: none;
-}
+    /* Make all navigation links visible */
+    #mobile-menu-icon {
+        display: none;
+    }
 
-#menu {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    max-width: 60%;
-    /* flex: 1 0 60%; */
-    justify-content: space-evenly;
-    align-items: center;
-    box-shadow: none;
-}
+    #menu {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        max-width: 60%;
+        /* flex: 1 0 60%; */
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: none;
+    }
 
-#hero {
-    height:  50vh;
-    min-height: 12rem;
-    background: url('../images/glen-carrie-soil_leaf-unsplash.webp') no-repeat center center / cover;
+    #hero {
+        height: 50vh;
+        min-height: 12rem;
+        background: url('../images/glen-carrie-soil_leaf-unsplash.webp') no-repeat center center / cover;
     }
 
     #image-1 {
@@ -510,7 +526,7 @@ footer {
 
 /* Media query for view on very large screens*/
 @media screen and (min-width: 1000px) {
-    
+
     .top-section .flex-row {
         flex-direction: row;
         flex-wrap: wrap;
@@ -521,13 +537,13 @@ footer {
         order: 1;
         align-self: center;
         max-width: 50%;
-        
-    }
-    
-#hero {
-    height:  40vh;
-    min-height: 12rem;
 
     }
-    
+
+    #hero {
+        height: 40vh;
+        min-height: 12rem;
+
+    }
+
 }
