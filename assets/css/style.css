@@ -120,7 +120,7 @@ section {
 }
 
 .image-bg {
-    height: 50vh;
+    height: 30vh;
     background-image: url('../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp');
     background-position: center center;
     background-repeat: no-repeat;
@@ -269,6 +269,10 @@ section {
     width: 90%;
     /* border: 1px solid red; */
 }
+
+/* .background-1 .card {
+    box-shadow: 0 0 10px #1f3e2c;
+} */
 
 .card {
     box-shadow: 0 0 10px #131515;
