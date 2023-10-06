@@ -187,7 +187,7 @@ section {
 }
 
 #hero .button,
-.button {
+.register-bottom .button {
     flex: 0 0 auto;
     background-color: #50952d;
     border: 3px solid #D3F1D0;
@@ -197,6 +197,10 @@ section {
     color: #D3F1D0;
     text-decoration: none;
     font-weight: 600;
+}
+
+.register-bottom .button {
+    font-size: 150%;
 }
 
 #hero .button {
@@ -370,6 +374,17 @@ section {
 
 .register-bottom>a {
     margin-bottom: 1rem;
+}
+
+/* Info box placement */
+.register-bottom .card-container .info-box {
+    flex-direction: row;
+    flex: 1 0 45%;
+}
+
+.register-bottom .card-container .image-box {
+    max-width: 60%;
+    margin-top: 1rem;
 }
 
 /* Styles for elements with center-text class */
@@ -560,6 +575,10 @@ footer {
         max-width: 70%;
     }
 
+    #image-2 {
+        max-width: 60%;
+    }
+
 }
 
 /* Media query for view on very large screens*/
@@ -578,10 +597,20 @@ footer {
 
     }
 
+    #image-2 {
+        max-width: 75%;
+    }
+
     #hero {
         height: 40vh;
         min-height: 12rem;
 
     }
 
+}
+
+@media screen and (min-width: 2000px) {
+    body {
+        font-size: 150%;
+    }
 }
