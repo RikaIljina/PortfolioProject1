@@ -133,7 +133,7 @@ section {
 
 .image-bg-1 {
     height: 30vh;
-    background-image: url('../images/pexels-lisa-fotios-1301856_larger.webp');
+    background-image: url('../images/gabriel-jimenez-soil_hands-unsplash.webp');
     background-position: top 0 center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -594,7 +594,6 @@ footer {
         order: 1;
         align-self: center;
         max-width: 50%;
-
     }
 
     #image-2 {
@@ -604,7 +603,6 @@ footer {
     #hero {
         height: 40vh;
         min-height: 12rem;
-
     }
 
 }
