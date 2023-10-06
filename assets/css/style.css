@@ -119,6 +119,15 @@ section {
     width: 100%;
 }
 
+.image-bg {
+    height: 50vh;
+    background-image: url('../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .background-1 {
     background-color: #C3C397;
     color: #131515;
@@ -475,6 +484,11 @@ footer {
 
     .outer-width {
         width: 70%;
+    }
+
+    .image-bg {
+        height: 50vh;
+        background-image: url('../images/roman-synkevych-fjj7lVpCxRE-unsplash.webp');
     }
 
     .top-section .flex-row,
