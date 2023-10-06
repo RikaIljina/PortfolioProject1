@@ -181,6 +181,18 @@ section {
     margin-top: 1rem;
 }
 
+#hero .button:hover,
+.button:hover {
+    background-color: #4a5107;
+    box-shadow: 0 0 5px inset #131515;
+    text-shadow: 0 0 3px #C3C397;
+}
+
+#hero .button:active,
+.button:active {
+    background-color: #3C312A;
+}
+
 /* Empty div in header to push other elements down */
 #empty {
     flex: 4 0 auto;
