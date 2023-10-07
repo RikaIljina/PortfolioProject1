@@ -420,17 +420,16 @@ footer {
 @media screen and (min-width: 517px) {
 
     /* Override mobile-column styles */
-    .flex-row {
-        /* border: 1px solid red; */
+    .register-bottom .flex-row {
         flex-direction: row;
         width: 100%;
     }
 
-    /* Keep top section a column on small tablets */
-    .top-section .flex-row,
+    /* Keep top section and card container a column on small tablets */
+    /* .top-section .flex-row,
     .card-container {
         flex-direction: column;
-    }
+    } */
 
     #hero {
         height: 40vh;
@@ -488,25 +487,32 @@ footer {
 }
 
 /* Media query for view on larger screens*/
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 768px) {
 
     .outer-width {
-        width: 70%;
+        width: 75%;
     }
 
-    .image-bg,
-    .image-bg-1 {
+    .flex-row {
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-bg-1,
+    .section-bg-2 {
         height: 50vh;
         /* background-image: url('../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp'); */
     }
-
+/* 
     .top-section .flex-row,
     .card-container {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        /* width: 100%; */
-    }
+        /* width: 100%; 
+    } */
 
     .card,
     .info-box {
@@ -514,7 +520,7 @@ footer {
         max-width: 80%;
         /* Make sure cards in a row have the same height */
         align-self: stretch;
-        flex: 1 0 300px;
+        flex: 1 0 40%;
     }
 
     .info-box {
@@ -557,12 +563,13 @@ footer {
     .card,
     .info-box {
         max-width: 60%;
+        flex: 1 0 40%;
     }
 
 }
 
 /* Media query for view on very large screens > 1000px*/
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
 
     .top-section .flex-row {
         flex-direction: row;
@@ -580,10 +587,29 @@ footer {
         min-height: 12rem;
     }
 
+    .card,
+    .info-box {
+        max-width: 60%;
+        flex: 1 0 40%;
+    }
+
+
 }
 
+@media screen and (min-width: 1440px) {
+
+    .card,
+    .info-box {
+        max-width: 60%;
+        flex: 1 0 30%;
+    }
+}
 /* Media query for view on very large screens > 2000px */
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 2560px) {
+
+    .outer-width {
+        width: 60%;
+    }
 
     /* Adjust body font size */
     body {
