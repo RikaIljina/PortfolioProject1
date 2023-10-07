@@ -129,15 +129,32 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 .image-bg-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 30vh;
+    z-index: -1;
+    transform: scale(1.0);
+}
+.image-bg-1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
     background-image: url(../images/gabriel-jimenez-soil_hands-unsplash.webp);
     background-position: top 20% center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 .background-1 {
