@@ -267,8 +267,10 @@ section {
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: center;
+    justify-content: space-around;
     gap: 1rem;
     margin-bottom: 1rem;
+
 }
 
 /* Card and info box styles on mobiles*/
@@ -436,10 +438,14 @@ footer {
         min-height: 12rem;
     } */
 
-    /* Show cards in a row for all larger screens */
+    /* Make cards and info boxes centered */
     /* .card-container {
         justify-content: space-around;
         gap: 10px;
+    }
+     */
+    /* .info-box {
+        align-self: center;
     } */
 
     .card,
