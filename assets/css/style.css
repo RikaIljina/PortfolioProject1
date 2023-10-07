@@ -341,7 +341,7 @@ section {
     left: 1rem;
 }
 
-/* Last section, div with info and call to action */
+/* Bottom section, div with info and call to action */
 .register-bottom {
     width: 80%;
 }
@@ -419,53 +419,35 @@ footer {
 /* Media query for view on rotated phones and small tablets */
 @media screen and (min-width: 517px) {
 
-    /* Override mobile-column styles */
+    /* Bottom section: override mobile-column styles */
     .register-bottom .flex-row {
         flex-direction: row;
         width: 100%;
     }
 
-    /* Keep top section and card container a column on small tablets */
-    /* .top-section .flex-row,
-    .card-container {
-        flex-direction: column;
-    } */
+    /* Logo for > 517px */
+    #logo {
+        font-size: 2.3rem;
+    }
 
+    /* Hero image for > 517px */
     #hero {
         height: 40vh;
         min-height: 12rem;
     }
 
-    #logo {
-        font-size: 2.3rem;
-    }
-
-    /* Top section style: display paragraph and image in different layouts depending on screen size */
-    .top-section>div>p {
-        flex: 1 0 50%;
-        /* padding: 1rem 3rem 1rem 0; */
-        margin: 0 0 1rem 0;
-        /* text-align: justify; */
-        /* align-self: center; */
-    }
-
-
-    /* Show cards in a row for larger screens */
-    .card-container {
+    /* Show cards in a row for all larger screens */
+    /* .card-container {
         justify-content: space-around;
         gap: 10px;
-    }
+    } */
 
     .card,
     .info-box {
-        /* min-width: 20vw; */
         max-width: 90%;
-        /* align-self: stretch; */
-        /* flex: 1 0 300px; */
-
-
     }
 
+    /* Bottom section styles */
     .register-bottom>p {
         width: 50%;
         margin: 1rem auto 1rem auto;
@@ -486,19 +468,25 @@ footer {
     }
 }
 
-/* Media query for view on larger screens*/
+/* Media query for view on larger screens > 768px */
 @media screen and (min-width: 768px) {
 
     .outer-width {
-        width: 75%;
+        width: 80%;
     }
 
+/* Row style for certain divs on larger screens */
     .flex-row {
         flex-direction: row;
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
     }
+
+        /* Top section style: display paragraphs as columns in a row */
+        .top-section>div>p {
+            flex: 1 0 45%;
+        }
 
     .section-bg-1,
     .section-bg-2 {
