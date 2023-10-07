@@ -152,7 +152,7 @@ section {
 
 /* Hero div */
 #hero {
-    background: url('../images/glen-carrie-soil_leaf-unsplash_tinified.webp') no-repeat center center / cover;
+    background: url(../images/glen-carrie-soil_leaf-unsplash_tinified.webp) no-repeat center center / cover;
     background-color: rgb(83, 86, 77);
     display: flex;
     flex-direction: column;
@@ -568,7 +568,7 @@ footer {
     #hero {
         height: 50vh;
         min-height: 12rem;
-        background: url('../images/glen-carrie-soil_leaf-unsplash_tinified.webp') no-repeat center center / cover;
+        background: url(../images/glen-carrie-soil_leaf-unsplash_tinified.webp) no-repeat center center / cover;
     }
 
     #image-1 {
