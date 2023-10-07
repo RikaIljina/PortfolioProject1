@@ -18,6 +18,7 @@ body {
     font-weight: 300;
 }
 
+/* Header holding navbar */
 header {
     background-color: #3C312A;
     width: 100%;
@@ -37,7 +38,6 @@ header {
 
 /* Navbar: text color for all elements */
 #navigation>* {
-    /* flex: 1 0 auto; */
     color: #D3F1D0;
 }
 
@@ -46,7 +46,7 @@ header {
     display: none;
 }
 
-/* Navbar: toggle menu */
+/* Navbar: toggle menu on mobiles */
 #mobile-menu-chk:checked~#menu {
     display: flex;
 }
@@ -58,17 +58,16 @@ header {
     margin-right: 1.5rem;
 }
 
-/* Navbar: menu styles */
+/* Navbar: menu styles on mobiles */
 #menu {
+    /* For mobile view: hide menu until menu icon is clicked */
+    display: none;
     position: absolute;
     flex-direction: column;
     width: 100%;
     background-color: #3C312A;
     top: 99%;
     box-shadow: 0 4px 4px #000000;
-
-    /* For mobile view: hide menu until menu icon is clicked */
-    display: none;
 }
 
 /* Navbar: menu item styles */
@@ -82,7 +81,6 @@ header {
     text-decoration: none;
     color: #D3F1D0;
     padding: 0.2rem 0.5rem;
-
 }
 
 /* Navbar: user feedback when hovering and clicking */
@@ -96,7 +94,6 @@ header {
     border-top: 2px solid #50952d;
     border-radius: 5px 1px;
 }
-
 
 /* Navbar: Logo styles */
 #logo {
@@ -122,17 +119,16 @@ section {
     width: 100%;
 }
 
-.image-bg {
+.section-bg-1 {
     height: 30vh;
     background-image: url(../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
-.image-bg-1 {
+.section-bg-2 {
     height: 30vh;
     background-image: url(../images/gabriel-jimenez-hands-hold-soil-unsplash.webp);
     background-position: top 50% center;
@@ -513,7 +509,8 @@ footer {
         width: 70%;
     }
 
-    .image-bg, .image-bg-1 {
+    .image-bg,
+    .image-bg-1 {
         height: 50vh;
         /* background-image: url('../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp'); */
     }
@@ -571,13 +568,15 @@ footer {
 
 /* Media query for view on screens > 875px*/
 @media screen and (min-width: 875px) {
+
     .card,
     .info-box {
         max-width: 60%;
     }
 
 }
-/* Media query for view on very large screens*/
+
+/* Media query for view on very large screens > 1000px*/
 @media screen and (min-width: 1000px) {
 
     .top-section .flex-row {
@@ -598,7 +597,10 @@ footer {
 
 }
 
+/* Media query for view on very large screens > 2000px */
 @media screen and (min-width: 2000px) {
+
+    /* Adjust body font size */
     body {
         font-size: 150%;
     }
