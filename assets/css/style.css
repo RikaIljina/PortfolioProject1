@@ -581,6 +581,14 @@ footer {
 
 }
 
+/* Media query for view on screens > 875px*/
+@media screen and (min-width: 875px) {
+    .card,
+    .info-box {
+        max-width: 60%;
+    }
+
+}
 /* Media query for view on very large screens*/
 @media screen and (min-width: 1000px) {
 
