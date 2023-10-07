@@ -394,14 +394,7 @@ section {
 }
 
 /* Image styles */
-#image-1 {
-    height: auto;
-    width: 500px;
-    max-width: 90%;
-    padding: 1rem 0 2rem 0;
-}
-
-#image-2 {
+#map-image {
     height: auto;
     width: 100%;
     /* padding: 1rem 0 2rem 0; */
@@ -476,9 +469,6 @@ footer {
         /* align-self: center; */
     }
 
-    #image-1 {
-        max-width: 80%;
-    }
 
     /* Show cards in a row for larger screens */
     .card-container {
@@ -572,11 +562,8 @@ footer {
         background: url(../images/glen-carrie-soil_leaf-unsplash_tinified.webp) no-repeat center center / cover;
     }
 
-    #image-1 {
-        max-width: 70%;
-    }
 
-    #image-2 {
+    #map-image {
         max-width: 60%;
     }
 
@@ -599,13 +586,8 @@ footer {
         justify-content: center;
     }
 
-    #image-1 {
-        order: 1;
-        align-self: center;
-        max-width: 50%;
-    }
 
-    #image-2 {
+    #map-image {
         max-width: 75%;
     }
 
