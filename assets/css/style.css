@@ -160,14 +160,18 @@ section {
     align-items: center;
 }
 
+/* Center all hero elements */
 #hero>* {
     text-align: center;
-    flex: 1.5 0 auto;
-    /* border: 1px solid red; */
+}
+
+/* Style empty div in header to push other elements down */
+#empty {
+    flex: 8 1 auto;
 }
 
 #hero>h1 {
-    flex: 0.5 0 auto;
+    flex: 2 0 auto;
     color: #D3F1D0;
     font-size: 3rem;
     margin-top: 1rem;
@@ -177,6 +181,7 @@ section {
 #hero>p {
     color: #D3F1D0;
     font-size: 1.2rem;
+    flex: 3 0 auto;
 
 }
 
@@ -191,10 +196,6 @@ section {
     color: #D3F1D0;
     text-decoration: none;
     font-weight: 600;
-}
-
-.register-bottom .button {
-    font-size: 150%;
 }
 
 #hero .button {
@@ -213,10 +214,6 @@ section {
     background-color: #3C312A;
 }
 
-/* Empty div in header to push other elements down */
-#empty {
-    flex: 4 0 auto;
-}
 
 
 /* Section div style with responsive outer width */
@@ -366,7 +363,8 @@ section {
     margin: 0 0 1rem 0;
 }
 
-.register-bottom>a {
+.register-bottom .button {
+    font-size: 150%;
     margin-bottom: 1rem;
 }
 
