@@ -430,10 +430,14 @@ footer {
     border: 1px solid red;
 }
 
-.reg-form {
+#reg-form {
     width: 50%;
 }
 
+#amount {
+    height: 2rem;
+    width: 4rem;
+}
 
 /* Media query for view on rotated phones and small tablets */
 @media screen and (min-width: 517px) {
