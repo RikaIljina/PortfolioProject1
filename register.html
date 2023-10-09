@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,50 +16,113 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
     <!-- Link to CSS stylesheet -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- Page header with responsive nav bar -->
     <header>
         <nav id="navigation">
-            <a href="index.html" id="logo">LOGO</a>
+            <a href="index.html" id="logo">BG Seminars</a>
             <input type="checkbox" id="mobile-menu-chk">
-            <label for="mobile-menu-chk" id="mobile-menu-icon">X</label>
+            <label for="mobile-menu-chk" id="mobile-menu-icon"><i class="fa-solid fa-ellipsis-vertical"></i></label>
             <ul id="menu">
-                <li><a href="index.html">What we do</a></li>
+                <li ><a href="index.html">What we do</a></li>
                 <li><a href="about.html">Who we are</a></li>
                 <li><a href="why.html">Why it matters</a></li>
-                <li><a href="register.html">Register</a></li>
+                <li><a href="register.html" class="active">Register</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Container of all page sections -->
+    <!-- Container with all page sections -->
     <main>
-        <section id="hero-section">
-            <div id="hero">
-                <h1>Soil is Life</h1>
-                <p>Join our on-site seminar on soil health<br>and get to know your soil</p>
+        <section class="page-section bg-light">
+            <div class="outer-width "></div>
+                <h2>Register here for the next seminar</h2>
+                <p>Staurday, Sep 2<br>10:00-18:00</p>
+
+                <a href="register.html" class="button">Register</a>
             </div>
-            <a href="" class="button">Register</a>
         </section>
 
+        <section class="page-section bg-light">
+            <div class="outer-width flex-column top-section">
+                <h2>Let's get our hands dirty</h2>
+                <div class="flex-row mobile-column">
+                    <p>Welcome to our exciting seminar on soil health!<br>Whether you're a passionate hobby gardener
+                        or a small-scale farmer, join us for an enriching exploration of the very foundation of
+                        successful cultivation—soil. Get ready for a hands-on experience as we dig into the earth,
+                        allowing you to touch and feel the soil, gaining a deeper understanding of its composition and
+                        structure. Our seminar goes beyond the surface as we employ simple equipment to analyze the
+                        soil, discussing the results and delving into eco-friendly tilling methods that promote
+                        sustainable and fruitful growth. </p>
+
+                    <p>
+                        The seminar is an all-day event, providing ample time to
+                        engage with soil and learn valuable insights. Guests are welcome to join us for a healthy
+                        vegetarian lunch served in our roomy greenhouse—a perfect opportunity for networking and further
+                        discussions on soil health and sustainable farming practices. Come and unearth the secrets
+                        beneath your feet, and cultivate a deeper appreciation for the life-sustaining essence of
+                        healthy soil.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section bg-dark">
+            <div class="outer-width flex-column register-bottom">
+                <h2>Ready to dive in?</h2>
+                <p class="center">Secure your spot now!<br>
+                    50 € per participant<br>
+                    Free for children under 14
+                </p>
+                <a href="register.html" class="button">Register</a>
+                <div class="flex-row mobile-column card-container">
+
+                    <div class="info-box center">
+                        <h3>When?</h3>
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <p>2023:<br><br>
+                            Sat, July 1st<br>
+                            Sat, August 5th<br>
+                            Sat, September 2nd</p>
+                    </div>
+                    <div class="info-box center">
+                        <h3>Where?</h3>
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <p><br><br>Bussahagen Dalen 5<br>
+                            545 93 Töreboda<br>
+                            Sweden
+                        </p>
+                    </div>
+                    <div class="info-box image-box center">
+                        <h3 class="hidden-header">Map</h3>
+                        <img id="map-image" src="assets/images/google-maps_small.webp"
+                            alt="google maps screenshot showing the address pin" width="843" height="756">
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
     <!-- Footer with social links and address -->
     <footer>
         <div id="social">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-square-instagram"></i></a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Link to our facebook page (opens in a new window)"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Link to our instagram page (opens in a new window)"><i
+                    class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Link to our youtube channel (opens in a new window)"><i class="fa-brands fa-youtube"></i></a>
         </div>
-        <p id="site-notice">The "Soil is Life" seminars<br>are a project of<br>Bussahagen Grönsaker HB<br>Busshagen Dalen 5<br>545 93 Töreboda<br>Sweden</p>
+        <p id="site-notice" class="center"><span>The "Soil is Life" seminars are a project of</span><br>Bussahagen Grönsaker
+            HB<br>Busshagen
+            Dalen 5<br>545 93 Töreboda<br>Sweden</p>
     </footer>
 
     <!-- Font Awesome script for icons -->
     <script src="https://kit.fontawesome.com/936b3a8c94.js" crossorigin="anonymous"></script>
-    
+
 </body>
+
 </html>
