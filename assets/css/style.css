@@ -419,6 +419,22 @@ footer {
     font-size: 90%;
 }
 
+
+/* Registration page styles */
+
+.register-top h2 {
+    width: 50%;
+}
+.register-top > p {
+    width: 50%;
+    border: 1px solid red;
+}
+
+.reg-form {
+    width: 50%;
+}
+
+
 /* Media query for view on rotated phones and small tablets */
 @media screen and (min-width: 517px) {
 
