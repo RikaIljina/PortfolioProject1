@@ -41,8 +41,9 @@
             <div class="outer-width flex-column register-top">
                 <h2>Register here for the next seminar</h2>
                 <p class="center">Saturday, Sep 2<br>10:00-18:00</p>
-                <fieldset id="reg-form">
+                <fieldset id="reg-fields">
                     <legend>Your Info</legend>
+                    <form id="reg-form" action="https://formdump.codeinstitute.net" method="POST">
                     <label for="full-name" id="name-label">Full name</label>
                     <br>
                     <input type="text" id="full-name" name="full_name" autofocus required>
@@ -59,8 +60,8 @@
                     <br>
                     <textarea id="message" name="message" rows="5"></textarea>
                     <br>
-                    <input type="submit" action="https://formdump.codeinstitute.com" method="post" value="Submit">
-
+                    <input type="submit" value="Submit">
+                </form>
 
                 </fieldset>
 
