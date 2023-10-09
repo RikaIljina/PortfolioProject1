@@ -140,12 +140,12 @@ section {
 }
 
 /* Background colors for sections with information */
-.background-1 {
+.bg-light {
     background-color: #C3C397;
     color: #131515;
 }
 
-.background-2 {
+.bg-dark {
     background-color: #3C312A;
     color: #D3F1D0;
 }
@@ -237,13 +237,13 @@ section {
 }
 
 .top-section>h2,
-.background-1 h2,
-.background-1 h3 {
+.bg-light h2,
+.bg-light h3 {
     border-bottom: 5px solid #3C312A;
 }
 
-.background-2 h2,
-.background-2 h3 {
+.bg-dark h2,
+.bg-dark h3 {
     border-bottom: 5px solid #C3C397;
 }
 
@@ -321,10 +321,9 @@ section {
 .info-box {
     position: relative;
     align-self: center;
-    /* text-align: center; */
     box-shadow: 0 0 10px #131515;
     border-radius: 15px 1px;
-    font-size: 150%;
+    font-size: 140%;
 }
 
 .info-box>p {
@@ -452,6 +451,8 @@ footer {
     .card,
     .info-box {
         max-width: 90%;
+        /* Make sure cards in a row have the same height */
+        align-self: stretch;
     }
 
     /* Bottom section styles */
@@ -506,8 +507,6 @@ footer {
     .info-box {
         max-width: 80%;
         flex: 1 0 40%;
-        /* Make sure cards in a row have the same height */
-        align-self: stretch;
     }
 
     .info-box {
@@ -529,12 +528,6 @@ footer {
         box-shadow: none;
     }
 
-    /* #hero {
-        height: 40vh;
-        min-height: 12rem;
-        background: url(../images/glen-carrie-soil_leaf-unsplash_tinified.webp) no-repeat center center / cover;
-    } */
-
     /* Map screenshot: restrict max size */
     #map-image {
         max-width: 80%;
@@ -545,6 +538,11 @@ footer {
 /* Media query for view on screens > 875px*/
 @media screen and (min-width: 875px) {
 
+    .register-bottom {
+        width: 70%;
+    }
+
+
     .card,
     .info-box {
         max-width: 60%;
@@ -553,7 +551,7 @@ footer {
 
 }
 
-/* Media query for view on very large screens > 1024px*/
+/* Media query for view on large screens > 1024px*/
 @media screen and (min-width: 1024px) {
 
     .top-section {
@@ -564,34 +562,20 @@ footer {
         font-size: 350%;
     }
 
-    /* .top-section .flex-row {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    } */
-    /* 
-
-    #map-image {
-        max-width: 75%;
-    } */
-    /* 
-    #hero {
-        height: 35vh; */
-    /* min-height: 12rem; */
-    /* } */
-
-    /* .card,
-    .info-box {
-        max-width: 60%;
-        flex: 1 0 40%;
-    } */
-
+    .register-bottom > p {
+        font-size: 120%;
+    }
 
 }
 
+/* Media query for view on very large screens > 1440px*/
 @media screen and (min-width: 1440px) {
 
     .top-section {
+        width: 60%;
+    }
+
+    .register-bottom {
         width: 60%;
     }
 
@@ -606,14 +590,14 @@ footer {
     }
 }
 
-/* Media query for view on very large screens > 2000px */
+/* Media query for view on very large screens > 2560px */
 @media screen and (min-width: 2560px) {
 
     .outer-width {
         width: 60%;
     }
 
-    /* Hero section: incerase in size to better stand out on a very large screen */
+    /* Hero section: increase in size to better stand out on a very large screen */
     #hero {
         min-height: 22rem;
     }
@@ -628,8 +612,10 @@ footer {
 
     #hero .button,
     .register-bottom .button {
-        font-size: 150%;
-        padding: 1.5rem 2.5rem;
+        font-size: 130%;
+        padding: 1rem 2rem;
+        border: 6px solid #D3F1D0;
+        border-radius: 40px 2px;
     }
 
     /* Adjust body font size */
