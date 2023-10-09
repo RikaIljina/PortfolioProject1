@@ -553,8 +553,12 @@ footer {
 
 }
 
-/* Media query for view on very large screens > 1000px*/
+/* Media query for view on very large screens > 1024px*/
 @media screen and (min-width: 1024px) {
+
+    .top-section {
+        width: 70%;
+    }
 
     #hero h1 {
         font-size: 350%;
@@ -586,6 +590,10 @@ footer {
 }
 
 @media screen and (min-width: 1440px) {
+
+    .top-section {
+        width: 60%;
+    }
 
     .card,
     .info-box {
