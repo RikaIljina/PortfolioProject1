@@ -164,12 +164,13 @@ section {
 /* Hero section on Why page */
 #why-page #hero {
     background: url(../images/paul-mocan-IY0oy3SS6jw-unsplash.jpg) no-repeat center center / cover;
+    justify-content: center;
 }
 
 #why-page #hero>h1 { 
     border: 1px solid red;
-    line-height: 12rem;
-    margin-top: 0;
+    padding: 0;
+    flex: 0;
 }
 
 /* Card styles on Why page */
