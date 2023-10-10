@@ -172,7 +172,20 @@ section {
     margin-top: 0;
 }
 
+#why-page .card-container {
+    margin-top: 2rem;
+    align-items: center;
+}
 
+#why-page .card-container .card {
+    flex: 1 0 45%;
+    border: none;
+    box-shadow: none;
+}
+
+#why-page .card-container img {
+    flex: 0 1 35%;
+}
 
 /* Center all hero elements */
 #hero>* {
