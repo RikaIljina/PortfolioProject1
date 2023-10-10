@@ -426,7 +426,6 @@ footer {
 #register-bg {
     background: url("../images/steven-weeks-corn_soil-unsplash.webp") no-repeat center center / cover;
     color: #C3C397;
-
 }
 
 #register-bg .bg-dark,
@@ -434,40 +433,36 @@ footer {
     background: none;
 }
 
-.bg-opaque {
-    background-color: rgba(60,49,42, 0.9);
-
-}
-
+.bg-opaque,
 .register-top .card {
     background-color: rgba(60,49,42, 0.9);
-
 }
 
 .register-top .card-container {
     margin-top: 2rem;
-
 }
 
 .register-top h2 ,
-.register-top > p,
 #reg-fields {
     width: 100%;
 }
 .register-top > p {
+    width: 90%;
     border: 3px solid #D36135;
     border-radius: 15px 1px;
     font-size: 1.3rem;
+    padding: 1rem 0 1rem 0;
+}
+
+#open-seats {
+    font-size: 110%;
+    color: #50952d;
+    font-weight: 600;
 }
 
 #reg-fields {
     padding: 2rem;
     margin: 1rem 0.5rem 0 0.5rem;
-    /* border: 1px solid red; */
-
-}
-
-#reg-fields > * {
     /* border: 1px solid red; */
 }
 
