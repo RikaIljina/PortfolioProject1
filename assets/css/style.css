@@ -430,7 +430,6 @@ footer {
 }
 
 #why-page #hero>h1 { 
-    border: 1px solid red;
     padding: 0;
     flex: 0;
 }
@@ -474,27 +473,31 @@ footer {
 
 #why-page .ext-resources h3 {
     margin-top: 1rem;
-    margin-bottom: 2rem;
-    width: 90%;
+    margin-bottom: 1rem;
 }
 
 #why-page .ext-resources iframe {
     max-width: 90vw;
-    height: auto;
+    height: calc(0.56 * 90vw);
 }
 
 #why-page .ext-resources ul {
     margin-bottom: 2rem;
-    width: 60%;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 #why-page .ext-resources ul li {
     list-style: square;
-    line-height: 2rem;
-
+    margin: 0 0 1rem 0;
 }
 
+#why-page .ext-resources ul li a {
+    color: #3C312A;
+}
+
+#why-page .ext-resources ul li a:hover {
+    color: #D36135;
+}
 
 /* --- Registration page styles --- */
 #register-bg {
@@ -679,7 +682,9 @@ footer {
 }
 
 #why-page .ext-resources iframe {
-    margin: 0 4rem 0 4rem;
+    /* margin: 0 4rem 0 4rem; */
+    width: 70vw;
+    height: calc(0.56 * 70vw);
 }
 
 #why-page .ext-resources ul {
@@ -756,6 +761,16 @@ footer {
         max-width: 80%;
     }
 
+            /* --- Why page styles --- */
+            #why-page .ext-resources .card-container {
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+    #why-page .ext-resources iframe {
+        width: 460px;
+        height: calc(0.56 * 460px);
+    }
+
 }
 
 /* Media query for view on screens > 875px*/
@@ -826,6 +841,13 @@ footer {
     .card {
         padding: 1rem 2rem;
     }
+
+            /* --- Why page styles --- */
+
+    #why-page .ext-resources iframe {
+        width: 490px;
+        height: calc(0.56 * 490px);
+    }
 }
 
 /* Media query for view on very large screens > 2560px */
@@ -865,4 +887,12 @@ footer {
     body {
         font-size: 150%;
     }
+
+    
+            /* --- Why page styles --- */
+
+            #why-page .ext-resources iframe {
+                width: 600px;
+                height: calc(0.56 * 600px);
+            }
 }
