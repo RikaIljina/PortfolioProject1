@@ -181,6 +181,11 @@ section {
     align-items: center;
 }
 
+#why-page h2 {
+    width: 100%;
+
+}
+
 #why-page .reverse-order {
     flex-direction: row-reverse;
 }
@@ -194,6 +199,16 @@ section {
 
 #why-page .card-container img {
     flex: 0 1 35%;
+}
+
+#why-page .ext-resources {
+    padding: 2rem 0 2rem 0;
+    width: 70%;
+}
+
+#why-page .ext-resources h3 {
+    margin-bottom: 2rem;
+    width: 100%;
 }
 
 /* Center all hero elements */
