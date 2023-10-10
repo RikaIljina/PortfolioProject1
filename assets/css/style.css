@@ -161,6 +161,19 @@ section {
     align-items: center;
 }
 
+/* Hero section on why page */
+#why-page #hero {
+    background: url(../images/paul-mocan-IY0oy3SS6jw-unsplash.jpg) no-repeat center center / cover;
+}
+
+#why-page #hero>h1 { 
+    border: 1px solid red;
+    line-height: 12rem;
+    margin-top: 0;
+}
+
+
+
 /* Center all hero elements */
 #hero>* {
     text-align: center;
