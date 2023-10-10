@@ -429,7 +429,7 @@ footer {
     justify-content: center;
 }
 
-#why-page #hero>h1 { 
+#why-page #hero>h1 {
     padding: 0;
     flex: 0;
 }
@@ -512,18 +512,19 @@ footer {
 
 .bg-opaque,
 .register-top .card {
-    background-color: rgba(60,49,42, 0.9);
+    background-color: rgba(60, 49, 42, 0.9);
 }
 
 .register-top .card-container {
     margin-top: 2rem;
 }
 
-.register-top h2 ,
+.register-top h2,
 #reg-fields {
     width: 100%;
 }
-.register-top > p {
+
+.register-top>p {
     width: 90%;
     border: 3px solid #D36135;
     border-radius: 15px 1px;
@@ -558,7 +559,7 @@ footer {
     width: 100%;
     padding-left: 0.5rem;
     font-size: 1.3rem;
-    background-color: rgba(195,195,151,0.5);
+    background-color: rgba(195, 195, 151, 0.5);
     border: 3px solid #C3C397;
 }
 
@@ -568,7 +569,7 @@ footer {
     line-height: 2rem;
     /* font-size: 1.3rem; */
     padding-left: 0.5rem;
-    background-color: rgba(195,195,151,0.5);
+    background-color: rgba(195, 195, 151, 0.5);
     border: 3px solid #C3C397;
 }
 
@@ -584,7 +585,7 @@ footer {
     font-weight: 600;
     border-radius: 15px 1px;
     background-color: #50952d;
-    border: 3px solid  #D3F1D0;
+    border: 3px solid #D3F1D0;
     color: #D3F1D0;
 }
 
@@ -614,22 +615,6 @@ footer {
         font-size: 2.3rem;
     }
 
-    /* Hero image for > 517px */
-    /* #hero {
-        height: 35vh;
-        min-height: 12rem;
-    } */
-
-    /* Make cards and info boxes centered */
-    /* .card-container {
-        justify-content: space-around;
-        gap: 10px;
-    }
-     */
-    /* .info-box {
-        align-self: center;
-    } */
-
     .card,
     .info-box {
         max-width: 90%;
@@ -658,40 +643,41 @@ footer {
     }
 
     /* --- Why page styles for screens > 517 */
-    
-#why-page .card-container .card p {
-    flex: 1 0 45%;
-    border: none;
-    box-shadow: none;
-    align-self: center;
-}
 
-#why-page .card-container img {
-    flex: 0 1 35%;
-}
+    #why-page .card-container .card p {
+        flex: 1 0 45%;
+        border: none;
+        box-shadow: none;
+        align-self: center;
+    }
 
-#why-page .ext-resources {
-    padding: 2rem 0 2rem 0;
-    width: 70%;
-}
+    #why-page .card-container img {
+        flex: 0 1 35%;
+    }
 
-#why-page .ext-resources h3 {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    width: 60%;
-}
+    #why-page .ext-resources {
+        padding: 2rem 0 2rem 0;
+        width: 70%;
+    }
 
-#why-page .ext-resources iframe {
-    /* margin: 0 4rem 0 4rem; */
-    width: 70vw;
-    height: calc(0.56 * 70vw);
-}
+    #why-page .ext-resources h3 {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 100%;
+        text-align: center;
+    }
 
-#why-page .ext-resources ul {
-    margin-bottom: 2rem;
-    width: 60%;
-    padding-left: 2rem;
-}
+    #why-page .ext-resources iframe {
+        /* margin: 0 4rem 0 4rem; */
+        width: 70vw;
+        height: calc(0.56 * 70vw);
+    }
+
+    #why-page .ext-resources ul {
+        margin-bottom: 2rem;
+        width: 100%;
+        padding-left: 2rem;
+    }
 }
 
 /* Media query for view on larger screens > 768px */
@@ -737,8 +723,14 @@ footer {
         align-self: center;
     }
 
+    /* --- Why page styles --- */
     #why-page .card {
         max-width: 100%;
+    }
+
+    #why-page .ext-resources ul,
+    #why-page .ext-resources h3 {
+        width: 60%;
     }
 
     /* Navbar: hide menu icon, make all navigation links visible */
@@ -761,11 +753,12 @@ footer {
         max-width: 80%;
     }
 
-            /* --- Why page styles --- */
-            #why-page .ext-resources .card-container {
-                flex-direction: row;
-                justify-content: space-evenly;
-            }
+    /* --- Why page styles --- */
+    #why-page .ext-resources .card-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
     #why-page .ext-resources iframe {
         width: 460px;
         height: calc(0.56 * 460px);
@@ -810,7 +803,7 @@ footer {
         font-size: 350%;
     }
 
-    .register-bottom > p {
+    .register-bottom>p {
         font-size: 120%;
     }
 
@@ -842,7 +835,7 @@ footer {
         padding: 1rem 2rem;
     }
 
-            /* --- Why page styles --- */
+    /* --- Why page styles --- */
 
     #why-page .ext-resources iframe {
         width: 490px;
@@ -888,11 +881,11 @@ footer {
         font-size: 150%;
     }
 
-    
-            /* --- Why page styles --- */
 
-            #why-page .ext-resources iframe {
-                width: 600px;
-                height: calc(0.56 * 600px);
-            }
+    /* --- Why page styles --- */
+
+    #why-page .ext-resources iframe {
+        width: 600px;
+        height: calc(0.56 * 600px);
+    }
 }
