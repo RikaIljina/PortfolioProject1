@@ -434,8 +434,18 @@ footer {
     background: none;
 }
 
-.register-top {
+.bg-opaque {
     background-color: rgba(60,49,42, 0.9);
+
+}
+
+.register-top .card {
+    background-color: rgba(60,49,42, 0.9);
+
+}
+
+.register-top .card-container {
+    margin-top: 2rem;
 
 }
 
@@ -452,7 +462,7 @@ footer {
 
 #reg-fields {
     padding: 2rem;
-    margin: 1rem 0.5rem;
+    margin: 1rem 0.5rem 0 0.5rem;
     /* border: 1px solid red; */
 
 }
@@ -515,6 +525,12 @@ footer {
 /* Media query for view on rotated phones and small tablets */
 @media screen and (min-width: 517px) {
 
+
+    /* Register page: content width */
+    .register-top {
+        width: 80%;
+    }
+
     /* Bottom section: override mobile-column styles */
     .register-bottom .flex-row {
         flex-direction: row;
@@ -573,8 +589,14 @@ footer {
 /* Media query for view on larger screens > 768px */
 @media screen and (min-width: 768px) {
 
+
     .outer-width {
         width: 80%;
+    }
+
+    /* Register page: content width */
+    .register-top {
+        width: 60%;
     }
 
     /* Row style for certain divs on > 768px  */
@@ -632,6 +654,11 @@ footer {
 /* Media query for view on screens > 875px*/
 @media screen and (min-width: 875px) {
 
+    /* Register page: content width */
+    .register-top {
+        width: 60%;
+    }
+
     .register-bottom {
         width: 70%;
     }
@@ -647,6 +674,11 @@ footer {
 
 /* Media query for view on large screens > 1024px*/
 @media screen and (min-width: 1024px) {
+
+    /* Register page: content width */
+    .register-top {
+        width: 50%;
+    }
 
     .top-section {
         width: 70%;
@@ -664,6 +696,11 @@ footer {
 
 /* Media query for view on very large screens > 1440px*/
 @media screen and (min-width: 1440px) {
+
+    /* Register page: content width */
+    .register-top {
+        width: 40%;
+    }
 
     .top-section {
         width: 60%;
@@ -689,6 +726,11 @@ footer {
 
     .outer-width {
         width: 60%;
+    }
+
+    /* Register page: content width */
+    .register-top {
+        width: 40%;
     }
 
     /* Hero section: increase in size to better stand out on a very large screen */
