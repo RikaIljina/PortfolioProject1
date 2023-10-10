@@ -424,9 +424,13 @@ footer {
 
 /* Registration page styles */
 #register-bg {
-    background: url("../images/steven-weeks-DUPFowqI6oI-unsplash.jpg") no-repeat center center / cover;
+    background: url("../images/steven-weeks-corn_soil-unsplash.webp") no-repeat center center / cover;
     color: #C3C397;
 
+}
+
+#register-bg .bg-dark {
+    background: none;
 }
 
 .register-top {
@@ -473,8 +477,6 @@ footer {
     font-size: 1.3rem;
     background-color: rgba(195,195,151,0.5);
     border: 3px solid #C3C397;
-
-
 }
 
 #reg-form input {
@@ -499,8 +501,8 @@ footer {
     font-weight: 600;
     border-radius: 15px 1px;
     background-color: #50952d;
-    border: 3px solid #C3C397;
-    color: #C3C397;
+    border: 3px solid  #D3F1D0;
+    color: #D3F1D0;
 }
 
 #reg-form input:focus,
