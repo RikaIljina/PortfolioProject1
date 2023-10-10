@@ -429,7 +429,8 @@ footer {
 
 }
 
-#register-bg .bg-dark {
+#register-bg .bg-dark,
+#register-bg .bg-light {
     background: none;
 }
 
