@@ -660,15 +660,28 @@ footer {
 
 /* --- About page styles --- */
 
-#about-page .card-container .card p {
-    width: 40%;
+#about-page .outer-width {
+    width: 90%;
+    border: 1px solid red;
+}
+
+#about-page .card-container {
+    flex-direction: row;
+justify-content: space-evenly;
+}
+
+
+#about-page .card-container .card {
+    max-width: 600px;
+    min-width: 300px;
+    flex: 2 0 30%;
     border: none;
     box-shadow: none;
     align-self: center;
 }
 
 #about-page .card-container img {
-    flex: 0 1 35%;
+    flex: 1 1 30%;
 }
 
     /* --- Why page styles for screens > 517 */
