@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,50 +16,94 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
     <!-- Link to CSS stylesheet -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- Page header with responsive nav bar -->
     <header>
         <nav id="navigation">
-            <a href="index.html" id="logo">LOGO</a>
+            <a href="index.html" id="logo">BG Seminars</a>
             <input type="checkbox" id="mobile-menu-chk">
-            <label for="mobile-menu-chk" id="mobile-menu-icon">X</label>
+            <label for="mobile-menu-chk" id="mobile-menu-icon"><i class="fa-solid fa-ellipsis-vertical"></i></label>
             <ul id="menu">
                 <li><a href="index.html">What we do</a></li>
-                <li><a href="about.html">Who we are</a></li>
+                <li><a href="about.html" class="active">Who we are</a></li>
                 <li><a href="why.html">Why it matters</a></li>
                 <li><a href="register.html">Register</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Container of all page sections -->
-    <main>
+    <!-- Container with all page sections -->
+    <main class="why-page about-page">
         <section id="hero-section">
             <div id="hero">
-                <h1>Soil is Life</h1>
-                <p>Join our on-site seminar on soil health<br>and get to know your soil</p>
+                <!-- <div id="empty"></div> -->
+                <h1>Who we are</h1>
+                <!-- <p>Join our on-site seminar on soil health<br>and get to know your soil</p>
+
+                <a href="register.html" class="button">Register</a> -->
             </div>
-            <a href="" class="button">Register</a>
         </section>
 
+
+        </section>
+        <section class="page-section bg-light">
+            <div class="outer-width flex-column">
+                <!-- <h2 class="hidden-header">What we'll talk about</h2> -->
+                <div class="flex-row mobile-column card-container">
+                    <div class="card">
+                        <h2 class="hidden-header">About us</h2>
+                        <p>Our journey began in 2016 as aspiring hobby gardeners, aiming for self-sufficiency and cultivating our own nourishment. Over time, our farm flourished, surpassing our initial needs. This surplus led us to share our produce at the local market and with nearby restaurants. We soon recognized the value of local food, not only for its small carbon footprint but also for its unmatched freshness and flavor compared to imported alternatives. This realization fueled our commitment to contribute to our community's access to wholesome, locally sourced produce.</p>
+                    </div>
+                    <img src="assets/images/pexels-sippakorn-yamkasikorn-hands-holding-earthworms.webp" width="400">
+
+                </div>
+            </div>
+            
+            <div class="outer-width flex-column">
+            </div>
+
+            <div class="outer-width flex-column">
+                <!-- <h2>What we'll talk about</h2> -->
+                <div class="flex-row mobile-column card-container reverse-order">
+                    <div class="card">
+                        <!-- <h2>Soil is food</h2> -->
+                        <p>Today, we are a small but dedicated team of market gardeners with a profound passion for soil health and sustainable food production on a small scale. Our mission is to inspire change and contribute to a more sustainable future by nurturing the land and practicing eco-conscious farming techniques. Throughout the season, you can find us at the local weekly market in Töreboda, offering our carefully cultivated vegetables.
+                            Explore our website to learn more about our journey, practices, and commitment to promoting a healthier and more sustainable approach to agriculture. Join us in supporting a greener tomorrow through mindful farming and conscientious consumption.
+                            </p>
+                    </div>
+                    <img src="assets/images/hand-holding-beet.webp" width="400">
+
+                </div>
+            </div>
+            
+        </section>
 
     </main>
 
     <!-- Footer with social links and address -->
     <footer>
         <div id="social">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-square-instagram"></i></a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                aria-label="Link to our facebook page (opens in a new window)"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                aria-label="Link to our instagram page (opens in a new window)"><i
+                    class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                aria-label="Link to our youtube channel (opens in a new window)"><i
+                    class="fa-brands fa-youtube"></i></a>
         </div>
-        <p id="site-notice">The "Soil is Life" seminars<br>are a project of<br>Bussahagen Grönsaker HB<br>Busshagen Dalen 5<br>545 93 Töreboda<br>Sweden</p>
+        <p id="site-notice" class="center"><span>The "Soil is Life" seminars are a project of</span><br>Bussahagen
+            Grönsaker
+            HB<br>Busshagen
+            Dalen 5<br>545 93 Töreboda<br>Sweden</p>
     </footer>
 
     <!-- Font Awesome script for icons -->
     <script src="https://kit.fontawesome.com/936b3a8c94.js" crossorigin="anonymous"></script>
-    
+
 </body>
+
 </html>

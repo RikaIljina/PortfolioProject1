@@ -421,85 +421,91 @@ footer {
     font-size: 90%;
 }
 
+/* --- About page styles --- */
+.about-page .page-section {
+    padding-bottom: 2rem;
+}
+
+
 
 /* --- Why page styles --- */
 /* Hero section on Why page */
-#why-page #hero {
+.why-page #hero {
     background: url(../images/paul-mocan-IY0oy3SS6jw-unsplash.jpg) no-repeat center center / cover;
     justify-content: center;
 }
 
-#why-page #hero>h1 {
+.why-page #hero>h1 {
     padding: 0;
     flex: 0;
 }
 
 /* Card styles on Why page */
-#why-page .card-container {
+.why-page .card-container {
     margin-top: 2rem;
     margin-bottom: 0;
     gap: 1rem;
     align-items: center;
 }
 
-#why-page h2 {
+.why-page h2 {
     width: 100%;
 }
 
-#why-page .reverse-order {
+.why-page .reverse-order {
     flex-direction: row-reverse;
 }
 
-#why-page .card-container .card {
+.why-page .card-container .card {
     flex: 1 0 45%;
     border: none;
     box-shadow: none;
     align-self: center;
 }
 
-#why-page .card p {
+.why-page .card p {
     padding: 0
 }
 
-#why-page .card-container img {
+.why-page .card-container img {
     /* flex: 0 1 35%; */
     max-width: 90vw;
     border: 6px solid #4a5107;
     border-radius: 15px 1px;
 }
 
-#why-page .ext-resources {
+.why-page .ext-resources {
     padding: 2rem 0 2rem 0;
     width: 90%;
 }
 
-#why-page .ext-resources h3 {
+.why-page .ext-resources h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 100%;
     text-align: center;
 }
 
-#why-page .ext-resources iframe {
+.why-page .ext-resources iframe {
     max-width: 90vw;
     height: calc(0.56 * 90vw);
 }
 
-#why-page .ext-resources ul {
+.why-page .ext-resources ul {
     margin-bottom: 2rem;
     padding-left: 1rem;
 }
 
-#why-page .ext-resources ul li {
+.why-page .ext-resources ul li {
     list-style: square;
     margin: 0 0 1rem 0;
 }
 
-#why-page .ext-resources ul li a {
+.why-page .ext-resources ul li a {
     color: #3C312A;
 }
 
-#why-page .ext-resources ul li a:hover {
+.why-page .ext-resources ul li a:hover {
     color: #D36135;
 }
 
@@ -648,36 +654,36 @@ footer {
 
     /* --- Why page styles for screens > 517 */
 
-    #why-page .card-container .card p {
+    .why-page .card-container .card p {
         flex: 1 0 45%;
         border: none;
         box-shadow: none;
         align-self: center;
     }
 
-    #why-page .card-container img {
+    .why-page .card-container img {
         flex: 0 1 35%;
     }
 
-    #why-page .ext-resources {
+    .why-page .ext-resources {
         padding: 2rem 0 2rem 0;
         width: 70%;
     }
 
-    #why-page .ext-resources h3 {
+    .why-page .ext-resources h3 {
         margin-top: 1rem;
         margin-bottom: 2rem;
         width: 100%;
         text-align: center;
     }
 
-    #why-page .ext-resources iframe {
+    .why-page .ext-resources iframe {
         /* margin: 0 4rem 0 4rem; */
         width: 70vw;
         height: calc(0.56 * 70vw);
     }
 
-    #why-page .ext-resources ul {
+    .why-page .ext-resources ul {
         margin-bottom: 2rem;
         width: 100%;
         padding-left: 2rem;
@@ -728,12 +734,12 @@ footer {
     }
 
     /* --- Why page styles --- */
-    #why-page .card {
+    .why-page .card {
         max-width: 100%;
     }
 
-    #why-page .ext-resources ul,
-    #why-page .ext-resources h3 {
+    .why-page .ext-resources ul,
+    .why-page .ext-resources h3 {
         width: 60%;
     }
 
@@ -758,12 +764,12 @@ footer {
     }
 
     /* --- Why page styles --- */
-    #why-page .ext-resources .card-container {
+    .why-page .ext-resources .card-container {
         flex-direction: row;
         justify-content: space-evenly;
     }
 
-    #why-page .ext-resources iframe {
+    .why-page .ext-resources iframe {
         width: 460px;
         height: calc(0.56 * 460px);
     }
@@ -841,7 +847,7 @@ footer {
 
     /* --- Why page styles --- */
 
-    #why-page .ext-resources iframe {
+    .why-page .ext-resources iframe {
         width: 490px;
         height: calc(0.56 * 490px);
     }
@@ -888,7 +894,7 @@ footer {
 
     /* --- Why page styles --- */
 
-    #why-page .ext-resources iframe {
+    .why-page .ext-resources iframe {
         width: 600px;
         height: calc(0.56 * 600px);
     }
