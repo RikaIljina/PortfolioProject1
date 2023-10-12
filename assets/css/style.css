@@ -370,6 +370,12 @@ section {
     flex-direction: row;
     flex: 1 0 45%;
 }
+.register-info {
+    width: 100%;
+}
+.register-info .image-box {
+    width: 90%;
+}
 
 /* Image styles */
 #map-image {
@@ -396,6 +402,7 @@ footer {
     background-color: #D36135;
     width: 100%;
     color: #131515;
+    z-index: 99;
 }
 
 /* Social link styles */
@@ -525,16 +532,17 @@ footer {
     background: none;
 }
 
-.register-top {
+.register-top,
+.register-info {
     margin-top: 2rem;
 }
 
 .bg-opaque,
-.register-top .card {
+.register-info .card {
     background-color: rgba(60, 49, 42, 0.9);
 }
 
-.register-top .card-container {
+.register-info .card-container {
     margin-top: 2rem;
 }
 
@@ -619,7 +627,8 @@ footer {
 
 
     /* Register page: content width */
-    .register-top {
+    .register-top,
+    .register-info {
         width: 80%;
     }
 
@@ -735,8 +744,13 @@ justify-content: space-evenly;
     }
 
     /* Register page: content width */
-    .register-top {
+    .register-top,
+    .register-info {
         width: 60%;
+    }
+
+    .register-info .image-box {
+        width: 85%;
     }
 
     /* Row style for certain divs on > 768px  */
@@ -816,7 +830,8 @@ justify-content: space-evenly;
 @media screen and (min-width: 875px) {
 
     /* Register page: content width */
-    .register-top {
+    .register-top,
+    .register-info {
         width: 60%;
     }
 
@@ -837,7 +852,8 @@ justify-content: space-evenly;
 @media screen and (min-width: 1024px) {
 
     /* Register page: content width */
-    .register-top {
+    .register-top,
+    .register-info {
         width: 50%;
     }
 
@@ -857,11 +873,6 @@ justify-content: space-evenly;
 
 /* Media query for view on very large screens > 1440px*/
 @media screen and (min-width: 1440px) {
-
-    /* Register page: content width */
-    .register-top {
-        width: 40%;
-    }
 
     .top-section {
         width: 60%;
@@ -887,6 +898,15 @@ justify-content: space-evenly;
         width: 490px;
         height: calc(0.56 * 490px);
     }
+
+    /* --- Register page styles --- */
+
+       
+    .register-top,
+    .register-info {
+        width: 45%;
+    }
+
 }
 
 /* Media query for view on very large screens > 2560px */
@@ -897,7 +917,8 @@ justify-content: space-evenly;
     }
 
     /* Register page: content width */
-    .register-top {
+    .register-top,
+    .register-info  {
         width: 40%;
     }
 
