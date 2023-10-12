@@ -255,7 +255,7 @@ section {
     padding: 0 1rem;
     margin: 0 0 1rem 0;
     text-align: justify;
-    align-self: center;
+    align-self: baseline;
 }
 
 /* Styles for mobile only: elements shown in a row on big screens are shown in a column on mobiles */
@@ -523,6 +523,10 @@ footer {
 #register-bg .bg-dark,
 #register-bg .bg-light {
     background: none;
+}
+
+.register-top {
+    margin-top: 2rem;
 }
 
 .bg-opaque,
