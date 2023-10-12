@@ -443,7 +443,7 @@ footer {
 }
 
 #about-page #hero {
-    background: url(../images/about_us_hay.JPG) no-repeat top 30% center / cover;
+    background: url("../images/IMG_2777 (1).JPG") no-repeat center center / cover;
     justify-content: center;
 }
 
@@ -684,7 +684,6 @@ footer {
 
 #about-page .outer-width {
     width: 90%;
-    border: 1px solid red;
 }
 
 #about-page .card-container {
@@ -792,6 +791,11 @@ justify-content: space-evenly;
         align-self: center;
     }
 
+      /* --- About page styles --- */
+      #about-page .card {
+        padding: 1rem 2rem;
+    }
+
     /* --- Why page styles --- */
     .why-page .card {
         max-width: 100%;
@@ -877,6 +881,8 @@ justify-content: space-evenly;
     .register-bottom>p {
         font-size: 120%;
     }
+
+  
 
 }
 
