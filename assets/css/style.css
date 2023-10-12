@@ -139,6 +139,15 @@ section {
     background-size: cover;
 }
 
+.section-bg-3 {
+    height: 30vh;
+    background-image: url(../images/about_us_geese.jpg);
+    background-position: top 50% center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 /* Background colors for sections with information */
 .bg-light {
     background-color: #C3C397;
