@@ -434,7 +434,7 @@ footer {
 }
 
 #about-page #hero {
-    background: url(../images/about-us-hero.webp) no-repeat center center / cover;
+    background: url(../images/about-us-hero_tinified.webp) no-repeat center center / cover;
     justify-content: center;
 }
 
@@ -442,7 +442,7 @@ footer {
 
 /* --- Why page styles --- */
 .why-page #hero {
-    background: url(../images/why-hero-paul-mocan-unsplash.webp) no-repeat center center / cover;
+    background: url(../images/why-hero-paul-mocan-unsplash_tinified.webp) no-repeat center center / cover;
     justify-content: center;
 }
 
@@ -771,12 +771,20 @@ footer {
     }
 
     /* --- About page styles --- */
-    
+
+    #about-page #hero {
+        background: url(../images/about-us-hero.webp) no-repeat center center / cover;
+    }
+
     #about-page .card {
         padding: 1rem 2rem;
     }
 
     /* --- Why page styles --- */
+
+    .why-page #hero {
+        background: url(../images/why-hero-paul-mocan-unsplash.webp) no-repeat center center / cover;
+    }
 
     .why-page .card {
         max-width: 100%;
