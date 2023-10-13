@@ -185,6 +185,7 @@ section {
     font-size: 1.2rem;
 }
 
+.button,
 #hero .button,
 .register-bottom .button {
     flex: 0 0 auto;
@@ -375,6 +376,18 @@ section {
 
 .register-info .image-box {
     width: 90%;
+}
+
+#thank-you {
+    padding: 3rem 0;
+}
+
+#thank-you h2 {
+    width: auto;
+}
+
+#thank-you .button {
+    margin-top: 3rem;
 }
 
 /* Image styles */
@@ -922,6 +935,7 @@ footer {
         font-size: 150%;
     }
 
+    .button,
     #hero .button,
     .register-bottom .button {
         font-size: 130%;

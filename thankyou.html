@@ -38,36 +38,11 @@
     <!-- Container with all page sections -->
     <main id="register-bg">
         <section class="page-section bg-dark">
-            <h1 class="hidden-header">Registration form</h1>
-            <div class="outer-width flex-column register-top bg-opaque">
-                <h2>Register here for the next seminar</h2>
-                <p class="center">Saturday, Sep 2<br>10:00-18:00<br><br>still <span id="open-seats">10</span> places
-                    available<br><br>The fee of 50 € per participant can be paid on-site.<br>Free for children under 14!
-                </p>
-                <fieldset id="reg-fields">
-                    <legend>Your Info</legend>
-                    <form id="reg-form" action="thankyou.html" method="GET" target="_blank">
-                        <label for="full-name" id="name-label">Full name</label>
-                        <br>
-                        <input type="text" id="full-name" name="full_name" autofocus required>
-                        <br>
-                        <label for="email" id="email-label">Email address</label>
-                        <br>
-                        <input type="email" id="email" name="email" required>
-                        <br>
-                        <label for="amount" id="amount-label">Number of participants</label>
-                        <br>
-                        <input type="number" id="amount" name="amount" min="1" value="1" required>
-                        <br>
-                        <label for="message" id="message-label">Message (optional)</label>
-                        <br>
-                        <textarea id="message" name="message" rows="5"></textarea>
-                        <br>
-                        <input type="submit" value="Submit" class="button">
-                    </form>
-
-                </fieldset>
-
+            <h1 class="hidden-header">Registration confirmation page</h1>
+            <div class="outer-width flex-column register-top bg-opaque card" id="thank-you">
+                <h2>Thank you for registering!</h2>
+                <a href="register.html" class="button" aria-label="Click here to get back to the page with the registration form">Back to registration</a>
+                
             </div>
         </section>
 
