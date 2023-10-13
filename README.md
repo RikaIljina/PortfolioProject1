@@ -16,6 +16,8 @@ The website is fully responsive across multiple devices.
 
 ### Target audience
 
+The target audience of this website are hobby gardeners, market gardeners, and small-scale farmers who are looking to gain a profound understanding of soil. Visitors who land on this website have been directly searching for local seminars on soil health or for facts about soil and its importance.
+
 #### First-time visitors
 
 #### Recurring visitors
