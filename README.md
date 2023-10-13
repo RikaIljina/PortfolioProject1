@@ -20,6 +20,10 @@ The target audience of this website are hobby gardeners, market gardeners, and s
 
 #### First-time visitors
 
+First-time visitors are greeted with a landing page that informs them in detail about the contents of the seminar. The information and the CTA button in the hero section makes it unambiguously clear to them that they can register for a seminar on soil health. If they choose to scroll through the page and familiarize themselves with the seminar topics, they are presented with a second CTA button at the bottom of the page as well as clear information on when and where the seminar takes place and how much it costs.
+
+The social media links in the footer allow the visitor to check out the organisers' reputation in social networks. 
+
 #### Recurring visitors
 
 ### Site purpose
