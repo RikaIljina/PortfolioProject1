@@ -123,7 +123,7 @@ section {
 /* Scroll-by background images of empty sections */
 .section-bg-1 {
     height: 30vh;
-    background-image: url(../images/roman-synkevych-fjj7lVpCxRE-unsplash_tinified.webp);
+    background-image: url(../images/index-bg1-roman-synkevych-seedling-in-soil-unsplash_tinified.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -132,16 +132,7 @@ section {
 
 .section-bg-2 {
     height: 30vh;
-    background-image: url(../images/gabriel-jimenez-hands-hold-soil-unsplash.webp);
-    background-position: top 50% center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.section-bg-3 {
-    height: 30vh;
-    background-image: url(../images/about_us_geese.jpg);
+    background-image: url(../images/index-bg2-gabriel-jimenez-hands-hold-soil-unsplash.webp);
     background-position: top 50% center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -161,7 +152,7 @@ section {
 
 /* Hero flex div with background image*/
 #hero {
-    background: url(../images/glen-carrie-soil_leaf-unsplash_tinified.webp) no-repeat center center / cover;
+    background: url(../images/index-hero-glen-carrie-soil_leaf-unsplash_tinified.webp) no-repeat center center / cover;
     background-color: rgb(83, 86, 77);
     display: flex;
     flex-direction: column;
@@ -443,7 +434,7 @@ footer {
 }
 
 #about-page #hero {
-    background: url("../images/IMG_2777 (1).JPG") no-repeat center center / cover;
+    background: url(../images/about-us-hero.webp) no-repeat center center / cover;
     justify-content: center;
 }
 
@@ -452,7 +443,7 @@ footer {
 /* --- Why page styles --- */
 /* Hero section on Why page */
 .why-page #hero {
-    background: url(../images/paul-mocan-IY0oy3SS6jw-unsplash.jpg) no-repeat center center / cover;
+    background: url(../images/why-hero-paul-mocan-unsplash.webp) no-repeat center center / cover;
     justify-content: center;
 }
 
@@ -532,7 +523,7 @@ footer {
 
 /* --- Registration page styles --- */
 #register-bg {
-    background: url("../images/steven-weeks-corn_soil-unsplash.webp") no-repeat center center / cover;
+    background: url(../images/register-bg-steven-weeks-unsplash_large.webp) no-repeat center center / cover;
     color: #C3C397;
 }
 
@@ -758,7 +749,7 @@ justify-content: space-evenly;
     }
 
     .register-info .image-box {
-        width: 85%;
+        width: 90%;
     }
 
     /* Row style for certain divs on > 768px  */
@@ -822,9 +813,9 @@ justify-content: space-evenly;
     }
 
     /* Map screenshot: restrict max size */
-    #map-image {
+    /* #map-image {
         max-width: 80%;
-    }
+    } */
 
     /* --- Why page styles --- */
     .why-page .ext-resources .card-container {
