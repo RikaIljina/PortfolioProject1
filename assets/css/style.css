@@ -412,7 +412,7 @@ footer {
 
 #social a {
     font-size: 2rem;
-    padding: 1rem 0;
+    margin: 1rem 0;
     color: #131515;
 }
 
@@ -665,7 +665,7 @@ footer {
 
     #social a {
         font-size: 2rem;
-        padding: 1rem 3rem;
+        margin: 1rem 3rem;
         color: #131515;
     }
 
