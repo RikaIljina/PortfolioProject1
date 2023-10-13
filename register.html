@@ -46,7 +46,8 @@
                 </p>
                 <fieldset id="reg-fields">
                     <legend>Your Info</legend>
-                    <form id="reg-form" action="thankyou.html" method="GET" target="_blank">
+                    <!-- Normally, the value of the action property should contain the server address that handles the form data submitted via the post method -->
+                    <form id="reg-form" action="thankyou.html" method="get" target="_blank">
                         <label for="full-name" id="name-label">Full name</label>
                         <br>
                         <input type="text" id="full-name" name="full_name" autofocus required>
@@ -65,7 +66,6 @@
                         <br>
                         <input type="submit" value="Submit" class="button">
                     </form>
-
                 </fieldset>
 
             </div>
