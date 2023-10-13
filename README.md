@@ -24,5 +24,23 @@ The website is fully responsive across multiple devices.
 
 ### Site goal
 
+## Design
+
+### Color scheme
+
+### Typography
+
+### Images
+
+## Features
+
+## Technologies
+
+## Testing
+
+## Deployment
+
+## Acknowledgments
+
 
 
