@@ -744,12 +744,6 @@ footer {
         flex: 1 0 45%;
     }
 
-    /* Scroll-by images for > 768px */
-    .section-bg-1,
-    .section-bg-2 {
-        height: 40vh;
-    }
-
     /* Cards and info boxes for > 768px  */
     .card,
     .info-box {
