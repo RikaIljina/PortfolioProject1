@@ -138,7 +138,7 @@ section {
     background-size: cover;
 }
 
-/* Background colors for sections with information */
+/* Background colors for non-empty sections */
 .bg-light {
     background-color: #C3C397;
     color: #131515;
@@ -149,7 +149,7 @@ section {
     color: #D3F1D0;
 }
 
-/* Hero flex div with background image*/
+/* Index page, Hero flex div with background image*/
 #hero {
     background: url(../images/index-hero-glen-carrie-soil_leaf-unsplash_tinified.webp) no-repeat center center / cover;
     background-color: rgb(83, 86, 77);
@@ -273,7 +273,6 @@ section {
     justify-content: space-around;
     gap: 1rem;
     margin-bottom: 1rem;
-
 }
 
 /* Card and info box styles on mobiles*/
@@ -332,7 +331,7 @@ section {
     margin-bottom: 1rem;
 }
 
-/* div containing the map screenshot */
+/* div containing the map */
 .image-box {
     box-shadow: none;
     border-radius: 0;
@@ -369,9 +368,11 @@ section {
     flex-direction: row;
     flex: 1 0 45%;
 }
+
 .register-info {
     width: 100%;
 }
+
 .register-info .image-box {
     width: 90%;
 }
@@ -437,10 +438,9 @@ footer {
     justify-content: center;
 }
 
-
+/* Most styles on the About page inherit their styles from the Why page */
 
 /* --- Why page styles --- */
-/* Hero section on Why page */
 .why-page #hero {
     background: url(../images/why-hero-paul-mocan-unsplash.webp) no-repeat center center / cover;
     justify-content: center;
@@ -459,14 +459,6 @@ footer {
     align-items: center;
 }
 
-.why-page h2 {
-    width: 100%;
-}
-
-.why-page .reverse-order {
-    flex-direction: row-reverse;
-}
-
 .why-page .card-container .card {
     flex: 1 0 45%;
     border: none;
@@ -479,10 +471,17 @@ footer {
 }
 
 .why-page .card-container img {
-    /* flex: 0 1 35%; */
     max-width: 90vw;
     border: 6px solid #D3F1D0;
     border-radius: 15px 1px;
+}
+
+.why-page h2 {
+    width: 100%;
+}
+
+.why-page .reverse-order {
+    flex-direction: row-reverse;
 }
 
 .why-page .ext-resources {
@@ -567,7 +566,6 @@ footer {
 #reg-fields {
     padding: 2rem;
     margin: 1rem 0.5rem 0 0.5rem;
-    /* border: 1px solid red; */
 }
 
 #reg-fields legend {
@@ -576,9 +574,7 @@ footer {
 
 #reg-form label {
     line-height: 3rem;
-    /* font-size: 1.3rem; */
     font-weight: 600;
-    /* border: 1px solid red; */
 }
 
 #reg-form textarea {
@@ -590,10 +586,8 @@ footer {
 }
 
 #reg-form input {
-    /* border: 1px solid red; */
     width: 100%;
     line-height: 2rem;
-    /* font-size: 1.3rem; */
     padding-left: 0.5rem;
     background-color: rgba(195, 195, 151, 0.5);
     border: 3px solid #C3C397;
@@ -603,6 +597,13 @@ footer {
     width: 4rem;
 }
 
+#reg-form input:focus,
+#reg-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #C3C397;
+}
+
+/* Registration form Submit button styles */
 #reg-form input[type=submit] {
     width: 10rem;
     margin: 1rem calc(50% - 5rem);
@@ -615,27 +616,8 @@ footer {
     color: #D3F1D0;
 }
 
-#reg-form input:focus,
-#reg-form textarea:focus {
-    outline: none;
-    box-shadow: 0 0 10px #C3C397;
-}
-
 /* Media query for view on rotated phones and small tablets */
 @media screen and (min-width: 517px) {
-
-
-    /* Register page: content width */
-    .register-top,
-    .register-info {
-        width: 80%;
-    }
-
-    /* Bottom section: override mobile-column styles */
-    .register-bottom .flex-row {
-        flex-direction: row;
-        width: 100%;
-    }
 
     /* Logo for > 517px */
     #logo {
@@ -649,7 +631,12 @@ footer {
         align-self: stretch;
     }
 
-    /* Bottom section styles */
+    /* Index page bottom section: override mobile-column styles */
+    .register-bottom .flex-row {
+        flex-direction: row;
+        width: 100%;
+    }
+
     .register-bottom>p {
         width: 50%;
         margin: 1rem auto 1rem auto;
@@ -669,31 +656,29 @@ footer {
         color: #131515;
     }
 
+    /* --- About page styles for screens > 517 --- */
 
-/* --- About page styles --- */
+    #about-page .outer-width {
+        width: 90%;
+    }
 
-#about-page .outer-width {
-    width: 90%;
-}
+    #about-page .card-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
-#about-page .card-container {
-    flex-direction: row;
-justify-content: space-evenly;
-}
+    #about-page .card-container .card {
+        max-width: 600px;
+        min-width: 300px;
+        flex: 2 0 30%;
+        border: none;
+        box-shadow: none;
+        align-self: center;
+    }
 
-
-#about-page .card-container .card {
-    max-width: 600px;
-    min-width: 300px;
-    flex: 2 0 30%;
-    border: none;
-    box-shadow: none;
-    align-self: center;
-}
-
-#about-page .card-container img {
-    flex: 1 1 30%;
-}
+    #about-page .card-container img {
+        flex: 1 1 30%;
+    }
 
     /* --- Why page styles for screens > 517 */
 
@@ -721,7 +706,6 @@ justify-content: space-evenly;
     }
 
     .why-page .ext-resources iframe {
-        /* margin: 0 4rem 0 4rem; */
         width: 70vw;
         height: calc(0.56 * 70vw);
     }
@@ -731,24 +715,20 @@ justify-content: space-evenly;
         width: 100%;
         padding-left: 2rem;
     }
+
+    /* --- Register page styles --- */
+    .register-top,
+    .register-info {
+        width: 80%;
+    }
+
 }
 
 /* Media query for view on larger screens > 768px */
 @media screen and (min-width: 768px) {
 
-
     .outer-width {
         width: 80%;
-    }
-
-    /* Register page: content width */
-    .register-top,
-    .register-info {
-        width: 60%;
-    }
-
-    .register-info .image-box {
-        width: 90%;
     }
 
     /* Row style for certain divs on > 768px  */
@@ -759,7 +739,7 @@ justify-content: space-evenly;
         justify-content: center;
     }
 
-    /* Top section: display paragraphs as columns in a row */
+    /* Index page, Top section: display paragraphs as columns in a row */
     .top-section>div>p {
         flex: 1 0 45%;
     }
@@ -781,21 +761,6 @@ justify-content: space-evenly;
         align-self: center;
     }
 
-      /* --- About page styles --- */
-      #about-page .card {
-        padding: 1rem 2rem;
-    }
-
-    /* --- Why page styles --- */
-    .why-page .card {
-        max-width: 100%;
-    }
-
-    .why-page .ext-resources ul,
-    .why-page .ext-resources h3 {
-        width: 60%;
-    }
-
     /* Navbar: hide menu icon, make all navigation links visible */
     #mobile-menu-icon {
         display: none;
@@ -811,12 +776,23 @@ justify-content: space-evenly;
         box-shadow: none;
     }
 
-    /* Map screenshot: restrict max size */
-    /* #map-image {
-        max-width: 80%;
-    } */
+    /* --- About page styles --- */
+    
+    #about-page .card {
+        padding: 1rem 2rem;
+    }
 
     /* --- Why page styles --- */
+
+    .why-page .card {
+        max-width: 100%;
+    }
+
+    .why-page .ext-resources ul,
+    .why-page .ext-resources h3 {
+        width: 60%;
+    }
+
     .why-page .ext-resources .card-container {
         flex-direction: row;
         justify-content: space-evenly;
@@ -827,21 +803,23 @@ justify-content: space-evenly;
         height: calc(0.56 * 460px);
     }
 
-}
-
-/* Media query for view on screens > 875px*/
-@media screen and (min-width: 875px) {
-
-    /* Register page: content width */
+    /* --- Register page styles --- */
     .register-top,
     .register-info {
         width: 60%;
     }
 
+    .register-info .image-box {
+        width: 90%;
+    }
+}
+
+/* Media query for view on screens > 875px*/
+@media screen and (min-width: 875px) {
+
     .register-bottom {
         width: 70%;
     }
-
 
     .card,
     .info-box {
@@ -849,16 +827,16 @@ justify-content: space-evenly;
         flex: 1 0 40%;
     }
 
+    /* --- Register page styles --- */
+    .register-top,
+    .register-info {
+        width: 60%;
+    }
+
 }
 
 /* Media query for view on large screens > 1024px*/
 @media screen and (min-width: 1024px) {
-
-    /* Register page: content width */
-    .register-top,
-    .register-info {
-        width: 50%;
-    }
 
     .top-section {
         width: 70%;
@@ -872,8 +850,11 @@ justify-content: space-evenly;
         font-size: 120%;
     }
 
-  
-
+    /* --- Register page styles --- */
+    .register-top,
+    .register-info {
+        width: 50%;
+    }
 }
 
 /* Media query for view on very large screens > 1440px*/
@@ -906,7 +887,7 @@ justify-content: space-evenly;
 
     /* --- Register page styles --- */
 
-       
+
     .register-top,
     .register-info {
         width: 45%;
@@ -921,13 +902,12 @@ justify-content: space-evenly;
         width: 60%;
     }
 
-    /* Register page: content width */
     .register-top,
-    .register-info  {
+    .register-info {
         width: 40%;
     }
 
-    /* Hero section: increase in size to better stand out on a very large screen */
+    /* Index page, Hero section: increase in size to better stand out on a very large screen */
     #hero {
         min-height: 22rem;
     }
@@ -953,11 +933,15 @@ justify-content: space-evenly;
         font-size: 150%;
     }
 
-
     /* --- Why page styles --- */
-
     .why-page .ext-resources iframe {
         width: 600px;
         height: calc(0.56 * 600px);
+    }
+
+    /* --- Register page styles --- */
+    .register-top,
+    .register-info {
+        width: 50%;
     }
 }
