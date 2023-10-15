@@ -20,19 +20,29 @@ The target audience of this website are hobby gardeners, market gardeners, and s
 
 #### First-time visitors
 
-First-time visitors are greeted with a landing page that informs them in detail about the contents of the seminar. The information and the CTA button in the hero section makes it unambiguously clear to them that they can register for a seminar on soil health. If they choose to scroll through the page and familiarize themselves with the seminar topics, they are presented with a second CTA button at the bottom of the page as well as clear information on when and where the seminar takes place and how much it costs.
+First-time visitors are greeted with a landing page that informs them in detail about the contents of the seminar. The information and the CTA button in the hero section make it unambiguously clear to them that they can register for a seminar on soil health. If they choose to scroll through the page and familiarize themselves with the seminar topics, they are presented with a second CTA button at the bottom of the page as well as clear information on when and where the seminar takes place and how much it costs.
 
 The social media links in the footer allow the visitor to check out the organisers' reputation in social networks. 
 
-#### Recurring visitors
+#### Returning visitors
+
+Returning visitors who already know that they want register for the seminar can use the CTA button in the hero section of the landing page to quickly get to the registration form. There, they also find the date and place of the next seminar as well as the amount of available places.
 
 ### Site purpose
 
+The purpose of the site is to allow visitors to find information on the organisers' seminar and to register.
+
 ### Site goal
+
+The goal of the site is to intrigue the target audience and spur them on to partake in the seminar on soil health. 
 
 ## Design
 
+The website is built to be intuitive and user-friendly, with a clear and unambiguous navigation and easy-to-find information.
+
 ### Color scheme
+
+The website uses earthy tones 
 
 ### Typography
 
