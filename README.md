@@ -96,7 +96,29 @@ The images were chosen to fit in with the website's overall look and to provide 
 
 ## Technologies
 
+### Main languages
+
+- HTML5
+- CSS3
+
+### Frameworks, Libraries, Applications
+
+- GitHub: source control and project submission
+- Chrome DevTools: debugging and responsiveness checks
+- Google Fonts: all site fonts
+- FontAwesome: social icons and info box symbols
+- coolors.co: palette
+- https://techsini.com/multi-mockup/index.php : responsiveness mockup
+- unsplash.com : free images
+- pexels.com : free images
+- https://tinypng.com/ : image size reduction
+- VS Code: IDE
+- Krita: offline image editor
+
 ## Testing
+
+- The site was tested with Chrome DevTools to ensure responsiveness on all devices and screen sizes
+- The site was checked in the browsers Chrome and Opera
 
 ## Deployment
 
