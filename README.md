@@ -42,13 +42,52 @@ The website is built to be intuitive and user-friendly, with a clear and unambig
 
 ### Color scheme
 
-The website uses earthy tones 
+The website uses earthy, natural tones:
+- The navbar and the sections with registration form and info use #3C312A as their background color and #D3F1D0 as text color
+- The navigation links and hero headings use #D3F1D0 as text color and #C3C397 as text shadow to appear slightly glowing
+- The main page sections use #C3C397 as their background color and #3C312A as the text color
+- Buttons and active navigation elements use #50952D to stand out
+- The footer uses #D36135 as background color to set a colorful accent
+- Variations of these colors are also present in the hero and background images of the site
+
+![Website palette containing 5 colors](assets/readme-files/palette.png)
+
 
 ### Typography
 
+The website uses only two fonts:
+- "Cherry Swash" for the logo in the  navbar
+- "Signika Negative" for all other headings and texts on the site
+
 ### Images
 
+The images were chosen to fit in with the website's overall look and to provide the visitor with a pleasant break inbetween the text paragraphs.
+
 ## Features
+
+- Every page provides access to the navigation bar with links to the four pages and to the footer with links to social media pages
+- On the landing page ("What we do"), the visitor can also:
+    - read about the contents of the seminar
+    - click the CTA button to get to the registration page
+- On the "Who we are" page, the visitor can:
+    - read about the organisers
+    - find a small selection of the organisers' pictures
+- On the "Why it matters" page, the visitor can:
+    - read about the importance of the seminar topic in general
+    - watch two embedded YouTube videos relevant to the seminar topic
+    - click on external links to read more about the seminar topic on other websites 
+- On the "Register" page, the visitor can:
+    - find all important information on the next seminar
+    - fill out and submit a registration form
+- The "Thank you" page can only be accessed after successfully submitting the registration form; from there, the visitor can
+    - return to the registration form via a button
+    - use the navbar or the footer to navigate further
+
+### Future features
+
+- There should be a backend solution to save the form data
+- The registration page contains a paragraph with information about still available places. The number that is shown to the user is wrapped in a span element with the id `open-seats` which could be used to automatically replace the number with the current value from a backend database.
+- The same value should be used as the max amount for the input form labelled "Number of participants"
 
 ### Known bugs
 
