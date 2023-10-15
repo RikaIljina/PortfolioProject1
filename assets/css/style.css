@@ -151,8 +151,8 @@ section {
 
 /* Index page, Hero flex div with background image*/
 #hero {
+    background-color: #3C312A;
     background: url(../images/index-hero-glen-carrie-soil_leaf-unsplash_tinified.webp) no-repeat center center / cover;
-    background-color: rgb(83, 86, 77);
     display: flex;
     flex-direction: column;
     height: 35vh;
@@ -447,6 +447,7 @@ footer {
 }
 
 #about-page #hero {
+    background-color: #3C312A;
     background: url(../images/about-us-hero_tinified.webp) no-repeat center center / cover;
     justify-content: center;
 }
@@ -455,6 +456,7 @@ footer {
 
 /* --- Why page styles --- */
 .why-page #hero {
+    background-color: #3C312A;
     background: url(../images/why-hero-paul-mocan-unsplash_tinified.webp) no-repeat center center / cover;
     justify-content: center;
 }
