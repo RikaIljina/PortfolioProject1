@@ -122,8 +122,8 @@ section {
 /* Scroll-by background images of empty sections */
 .section-bg-1 {
     height: 30vh;
-    background-image: url(../images/index-bg1-roman-synkevych-seedling-in-soil-unsplash_tinified.webp);
-    background-position: center center;
+    background-image: url(../images/index-bg2-gabriel-jimenez-hands-hold-soil-unsplash.webp);
+    background-position: top 50% center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -131,8 +131,8 @@ section {
 
 .section-bg-2 {
     height: 30vh;
-    background-image: url(../images/index-bg2-gabriel-jimenez-hands-hold-soil-unsplash.webp);
-    background-position: top 50% center;
+    background-image: url(../images/index-bg1-roman-synkevych-seedling-in-soil-unsplash_tinified.webp);
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
