@@ -10,7 +10,22 @@ The website is fully responsive across multiple devices.
 - [UX](#ux "UX")
     - [Target audience](#target-audience "Target audience")
         - [First-time visitors](#first-time-visitors "First-time visitors")
-        - [Recurring visitors](#recurring-visitors "Recurring visitors")
+        - [Returning visitors](#returning-visitors "Returning visitors")
+    - [Site purpose](#site-purpose "Site purpose")
+    - [Site goal](#site-goal "Site goal")
+- [Design](#design "Design")
+    - [Color scheme](#color-scheme "Color scheme")
+    - [Typography](#typography "Typography")
+    - [Images](#images "Images")
+- [Features](#features "Features")
+    - [Future features](#future-features "Future features")
+    - [Known bugs](#known-bugs "Known bugs")
+- [Technologies](#technologies "Technologies")
+    - [Main Languages](#main-languages "Main Languages")
+    - [Frameworks, Libraries, Applications](#frameworks-libraries-applications "Frameworks, Libraries, Applications")
+- [Testing](#testing "Testing")
+- [Deployment](#deployment "Deployment")
+- [Acknowledgments](#acknowledgments "Acknowledgments") 
 
 ## UX
 
@@ -107,10 +122,10 @@ The images were chosen to fit in with the website's overall look and to provide 
 - Chrome DevTools: debugging and responsiveness checks
 - Google Fonts: all site fonts
 - FontAwesome: social icons and info box symbols
-- coolors.co: palette
+- https://coolors.co: palette
 - https://techsini.com/multi-mockup/index.php : responsiveness mockup
-- unsplash.com : free images
-- pexels.com : free images
+- https://unsplash.com : free images
+- https://pexels.com : free images
 - https://tinypng.com/ : image size reduction
 - VS Code: IDE
 - Krita: offline image editor
