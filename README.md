@@ -119,13 +119,31 @@ The images were chosen to fit in with the website's overall look and to provide 
 ## Testing
 
 - The website was tested with Chrome DevTools to ensure responsiveness on all devices and screen sizes
-- The website was checked in the browsers Chrome and Opera
-- The website was tested with the HTML validater validator.w3.org
+- The website was checked in the browsers Chrome and Opera and on the mobile devices Samsung S7, S8, S9 and Huawei P20 Pro
+- The website was tested with the HTML validator validator.w3.org which showed no errors
 - The website was tested with the CSS validator https://jigsaw.w3.org/css-validator/ which showed no errors
+- According to Chrome DevTools Lighthouse, the website has a performance value of 98
+![Lighthouse metrics showing a performance value of 98](assets/readme-files/Lighthouse-metrics.png)
 
-## Deployment
+## Deployment 
+
+The website was deployed to GitHub Pages. Deployment process:
+
+- Login to GitHub.com and open project repository
+- Cilck on "Settings"
+- In the left panel, select "Pages"
+- Under "Build and Deployment" - "Source", select "Deploy from a branch" and select the main branch
+- Once the deployment is finished, the link to the page is shown at the top of the Github Pages section
+- The live link can be found [here](https://rikailjina.github.io/PortfolioProject1/)
+
 
 ## Acknowledgments
 
-
-
+- The Code Institute course materials and the "Love Running" project provided me with all the basics needed for the basic page design
+- [W3schools](https://www.w3schools.com/) and the [mdn web docs](developer.mozilla.org/) provided additional help on various CSS properties
+- [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) provided a helpful guide to flexbox
+- Many thanks to my mentor for constructive feedback
+- Many thanks to the Code Institute slack community for constant and general support
+- Credits for free images taken from [pexels](https://www.pexels.com/): Sippakorn Yamkasikorn, Carsten Ruthemann
+- Credits for free images taken from [unsplash](https://unsplash.com/): Roman Synkevych, Gabriel Jimenez, Glen Carrie, Steven Weeks, Paul Mocan
+- Other images are my own
