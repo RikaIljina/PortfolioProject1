@@ -114,11 +114,14 @@ The images were chosen to fit in with the website's overall look and to provide 
 - https://tinypng.com/ : image size reduction
 - VS Code: IDE
 - Krita: offline image editor
+- OpenAI: help with writing the page texts
 
 ## Testing
 
-- The site was tested with Chrome DevTools to ensure responsiveness on all devices and screen sizes
-- The site was checked in the browsers Chrome and Opera
+- The website was tested with Chrome DevTools to ensure responsiveness on all devices and screen sizes
+- The website was checked in the browsers Chrome and Opera
+- The website was tested with the HTML validater validator.w3.org
+- The website was tested with the CSS validator https://jigsaw.w3.org/css-validator/ which showed no errors
 
 ## Deployment
 
