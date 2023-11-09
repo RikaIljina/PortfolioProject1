@@ -1,6 +1,6 @@
 # Soil is Life project website
 
-This project is an intuitive multi-page website informing visitors about a seminar on soil health that is held in Töreboda, Sweden. The main purpose of the site is to allow visitors to fill out a form and register for the upcoming seminar. The secondary purpose of the site is to inform visitors about the seminar organisers and to provide more information on the seminar topic, soil.
+This project is an intuitive multi-page website informing visitors about a seminar on soil health that is held in Töreboda, Sweden. The main purpose of the site is to allow visitors to fill out a form and register for the upcoming seminar. The secondary purpose of the site is to inform visitors about the seminar organizers and to provide more information on the seminar topic, soil.
 
 The website is fully responsive across multiple devices.
 
@@ -37,7 +37,7 @@ The target audience of this website are hobby gardeners, market gardeners, and s
 
 First-time visitors are greeted with a landing page that informs them in detail about the contents of the seminar. The information and the CTA button in the hero section make it unambiguously clear to them that they can register for a seminar on soil health. If they choose to scroll through the page and familiarize themselves with the seminar topics, they are presented with a second CTA button at the bottom of the page as well as clear information on when and where the seminar takes place and how much it costs.
 
-The social media links in the footer allow the visitor to check out the organisers' reputation in social networks. 
+The social media links in the footer allow the visitor to check out the organizers' reputation in social networks. 
 
 #### Returning visitors
 
@@ -45,7 +45,7 @@ Returning visitors who already know that they want register for the seminar can 
 
 ### Site purpose
 
-The purpose of the site is to allow visitors to find information on the organisers' seminar and to register.
+The purpose of the site is to allow visitors to find information on the organizers' seminar and to register.
 
 ### Site goal
 
@@ -76,7 +76,7 @@ The website uses only two fonts:
 
 ### Images
 
-The images were chosen to fit in with the website's overall look and to provide the visitor with a pleasant break inbetween the text paragraphs.
+The images were chosen to fit in with the website's overall look and to provide the visitor with a pleasant break in-between the text paragraphs.
 
 ## Features
 
@@ -85,8 +85,8 @@ The images were chosen to fit in with the website's overall look and to provide 
     - read about the contents of the seminar
     - click the CTA button to get to the registration page
 - On the "Who we are" page, the visitor can:
-    - read about the organisers
-    - find a small selection of the organisers' pictures
+    - read about the organizers
+    - find a small selection of the organizers' pictures
 - On the "Why it matters" page, the visitor can:
     - read about the importance of the seminar topic in general
     - watch two embedded YouTube videos relevant to the seminar topic
@@ -123,7 +123,7 @@ The images were chosen to fit in with the website's overall look and to provide 
 - Google Fonts: all site fonts
 - FontAwesome: social icons and info box symbols
 - https://coolors.co: palette
-- https://techsini.com/multi-mockup/index.php : responsiveness mockup
+- https://techsini.com/multi-mockup/index.php : responsiveness mock-up
 - https://unsplash.com : free images
 - https://pexels.com : free images
 - https://tinypng.com/ : image size reduction
@@ -145,10 +145,10 @@ The images were chosen to fit in with the website's overall look and to provide 
 The website was deployed to GitHub Pages. Deployment process:
 
 - Login to GitHub.com and open project repository
-- Cilck on "Settings"
+- Click on "Settings"
 - In the left panel, select "Pages"
 - Under "Build and Deployment" - "Source", select "Deploy from a branch" and select the main branch
-- Once the deployment is finished, the link to the page is shown at the top of the Github Pages section
+- Once the deployment is finished, the link to the page is shown at the top of the GitHub Pages section
 - The live link can be found [here](https://rikailjina.github.io/PortfolioProject1/)
 
 
