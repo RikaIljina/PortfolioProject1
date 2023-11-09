@@ -723,6 +723,7 @@ footer {
     .why-page .ext-resources iframe {
         width: 70vw;
         height: calc(0.56 * 70vw);
+        border: none;
     }
 
     .why-page .ext-resources ul {
