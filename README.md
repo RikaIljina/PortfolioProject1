@@ -144,6 +144,11 @@ The images were chosen to fit in with the website's overall look and to provide 
 
 The website was deployed to GitHub Pages. Deployment process:
 
+- Create a local project in VS Code
+- Initialize the repository by opening a terminal and entering the command  `git init --initial-branch=main`
+- Add all project files to the repository with the command `git add .`
+- Commit all added files with the command `git commit`
+- Push the files to the remote repository on GitHub with the command `git push` 
 - Login to GitHub.com and open project repository
 - Click on "Settings"
 - In the left panel, select "Pages"
