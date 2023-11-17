@@ -194,7 +194,7 @@ section {
     border-radius: 15px 1px;
     padding: 0.5rem 1rem;
     margin-bottom: 2rem;
-    color: #D3F1D0;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 600;
 }
@@ -628,7 +628,7 @@ footer {
     border-radius: 15px 1px;
     background-color: #50952d;
     border: 3px solid #D3F1D0;
-    color: #D3F1D0;
+    color: #ffffff;
 }
 
 /* Media query for view on rotated phones and small tablets */
